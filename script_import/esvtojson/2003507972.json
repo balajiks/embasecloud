@@ -1,0 +1,416 @@
+{
+	"datetime": "2020-01-29 13:17:10.723292",
+	"filename": "2003507972",
+	"mainterms": [{
+		"score": 0.9980674982070923,
+		"sentences": ["(14) Abbreviations: FISH, fluorescence in situ hybridization; HER2, human epidermal growth factor receptor 2; KPS, Karnofsky performance status; IHC, immunohistochemistry.    ",
+		"This study was conducted in accordance with the Declaration of Helsinki and Good Clinical Practice guidelines, as defined by the International Conference on Harmonization of Technical Requirements for Pharmaceuticals for Human Use."],
+		"term": "human",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.9946244955062866,
+		"term": "male",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.9873678088188171,
+		"term": "female",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.9827562570571899,
+		"term": "adult",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"links": [{
+			"sublinks": [{
+				"sentences": ["This phase II trial indicates that the combination of regorafenib and FOLFOX is well tolerated but does not add to the efficacy of first-line chemotherapy in metastatic esophagogastric cancer."],
+				"term": "metastasis"
+			},
+			{
+				"sentences": ["For example, the response rate for single-agent nivolumab in patients with chemotherapy-refractory metastatic gastric cancer was 11% in a phase III trial [33]; impressively, however, a recently reported phase NCT03406871) combining regorafenib and nivolumab in previously treated patients with gastric cancer showed a response rate of 44% [34]. Although these data need to be validated in larger cohorts, they suggest that regorafenib may have synergy with immunotherapy."],
+				"term": "stomach cancer"
+			},
+			{
+				"sentences": ["Preclinical and clinical data suggest that several growth factors regulate angiogenesis to promote cancer cell growth and metastasis, and antiangiogenic agents including ramucirumab and regorafenib have demonstrated efficacy as second- or third-line treatment for EG cancer [8, 9, 19]."],
+				"term": "second cancer"
+			},
+			{
+				"sentences": ["AEs were graded as per the National Cancer Institute Common Terminology Criteria for Adverse Events Statistical Analysis : All patients who received regorafenib and FOLFOX were included in the description of baseline characteristics, efficacy, and safety analysis."],
+				"term": "adverse event"
+			}],
+			"term": "adverse drug reaction - disease"
+		},
+		{
+			"sublinks": [{
+				"sentences": ["Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1."],
+				"term": "intravenous_drug_administration"
+			},
+			{
+				"sentences": ["This phase II trial indicates that the combination of regorafenib and FOLFOX is well tolerated but does not add to the efficacy of first-line chemotherapy in metastatic esophagogastric cancer."],
+				"term": "regional_perfusion"
+			}],
+			"term": "route of drug administration"
+		}],
+		"score": 0.9768912196159363,
+		"sentences": ["This phase II trial indicates that the combination of regorafenib and FOLFOX is well tolerated but does not add to the efficacy of first-line chemotherapy in metastatic esophagogastric cancer.",
+		"mFOLFOX6) every 14 days and regorafenib 160 mg daily on days 4 to 10 of each 14-day cycle.",
+		"As this study demonstrates that regorafenib plus FOLFOX is safe, and combined chemotherapy and immunotherapy show favorable toxicity profiles, future studies combining immunotherapy with regorafenib and chemotherapy may be feasible.",
+		"We evaluated whether regorafenib augments the antitumor effect of first-line chemotherapy in metastatic esophagogastric cancer.",
+		"Thus, future trials assessing the potential benefit of combining immunotherapy with regorafenib and FOLFOX may be feasible and warranted.",
+		"Twelve patients required regorafenib dose reduction: seven patients were reduced to 120 mg daily, and five patients required two dose reductions to 80 mg daily.",
+		"Although regorafenib targets multiple kinases in addition to VEGFR2, this broader activity does not seem to translate to better clinical activity.",
+		"For example, the response rate for single-agent nivolumab in patients with chemotherapy-refractory metastatic gastric cancer was 11% in a phase III trial [33]; impressively, however, a recently reported phase NCT03406871) combining regorafenib and nivolumab in previously treated patients with gastric cancer showed a response rate of 44% [34]. Although these data need to be validated in larger cohorts, they suggest that regorafenib may have synergy with immunotherapy.",
+		"every 14 days and regorafenib 160 mg daily on days 4 to 10 of each 14-day cycle.",
+		"The mean relative dose intensities during the first 6 months of treatment for regorafenib, oxaliplatin, bolus 5-FU, and infusional 5-FU were 95.8%, 80%, 83.4%, and 88.4%, respectively.",
+		"Regorafenib is a multikinase inhibitor targeting angiogenic and stromal receptor tyrosine kinases.",
+		"Using our NGS panel, we present the first broad genomic characterization of EG cancers from patients treated with \u00a9 AlphaMed Press 2019 regorafenib.",
+		"  We evaluated whether regorafenib augments the antitumor effect of first-line chemotherapy in metastatic esophagogastric cancer.",
+		"Regorafenib in Combination with First-Line Chemotherapy for Metastatic Esophagogastric Cancer",
+		"Notably, recently reported data suggest potential synergy between regorafenib and the PD-1 inhibitor nivolumab.",
+		"Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1.",
+		"Regorafenib (one week on\u2013one week off schedule) is well tolerated in combination with first-line FOLFOX but does not improve 6-month PFS relative to historical control.",
+		"If 20 or more patients were progression free at 6 months, regorafenib and FOLFOX would be considered worthy of further investigation.",
+		"Of note, we found that all six patients with ERBB2 amplification benefited from regorafenib plus FOLFOX, with five of six patients demonstrating a PR or CR (83%).",
+		"To determine whether any genomic alterations were associated with response to regorafenib plus FOLFOX, we evaluated the correlation of PFS with each one (Fig. 2).",
+		"In this phase II trial evaluating regorafenib with first-line chemotherapy for patients with metastatic EG adenocarcinoma, the combination demonstrated a manageable safety profile and showed clinical activity with a 6-month PFS of 53% (95% CI, 38%\u201371%).",
+		"The Oncologist 2020;25:e68\u2013e74 Implications for Practice: Study Design and Treatment : On the first and second occurrence of a grade 3 AE, regorafenib was reduced to 120 mg daily and 80 mg daily, respectively.",
+		"Preclinical and clinical data suggest that several growth factors regulate angiogenesis to promote cancer cell growth and metastasis, and antiangiogenic agents including ramucirumab and regorafenib have demonstrated efficacy as second- or third-line treatment for EG cancer [8, 9, 19].",
+		"AEs were graded as per the National Cancer Institute Common Terminology Criteria for Adverse Events Statistical Analysis : All patients who received regorafenib and FOLFOX were included in the description of baseline characteristics, efficacy, and safety analysis."],
+		"term": "regorafenib",
+		"termType": "DRG",
+		"weight": "a"
+	},
+	{
+		"score": 0.9507604837417603,
+		"sentences": ["Between August 2013 and November 2014, 36 patients with metastatic esophagogastric cancer were accrued to this single-center phase II study (NCT01913639).",
+		"In this phase II trial evaluating regorafenib with first-line chemotherapy for patients with metastatic EG adenocarcinoma, the combination demonstrated a manageable safety profile and showed clinical activity with a 6-month PFS of 53% (95% CI, 38%\u201371%).",
+		"This phase II trial indicates that the combination of regorafenib and FOLFOX is well tolerated but does not add to the efficacy of first-line chemotherapy in metastatic esophagogastric cancer.",
+		"This was a single-institution, open-label, nonrandomized, single-arm phase II study."],
+		"term": "phase 2 clinical trial",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.9381211996078491,
+		"sentences": ["The primary endpoint was 6-month progression-free survival (PFS).",
+		"With median follow-up among survivors of 33 months, we observed 33 deaths at the time of analysis; 19 patients were progression free at 6 months, resulting in a 6-month PFS of 53% (95% CI, 38%\u201371%).",
+		"If 20 or more patients were progression free at 6 months, regorafenib and FOLFOX would be considered worthy of further investigation.",
+		"Patients with previously untreated metastatic gastroesophageal adenocarcinoma received 5-fluorouracil, leucovorin, and oxaliplatin ( The primary endpoint was 6-month progression-free survival (PFS)."],
+		"term": "progression free survival",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.9061553478240967,
+		"term": "aged",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"links": [{
+			"sublinks": [{
+				"sentences": ["Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1."],
+				"term": "intravenous_drug_administration"
+			}],
+			"term": "route of drug administration"
+		}],
+		"score": 0.8827698230743408,
+		"sentences": ["Moreover, checkpoint inhibitors have been safely combined with chemotherapy [35]. Importantly, multiple studies have shown that oxaliplatin induces immunologic cell death, whereas cisplatin does not activate immunologic cell death on its own despite the presumably similar mechanism of action",
+		"Hence, it will be interesting to await results from the phase III CheckMate649 trial (NCT02872116) comparing first-line fluoropyrimidine and oxaliplatin plus nivolumab versus fluoropyrimidine and oxaliplatin.",
+		"Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1.",
+		"It is possible that oxaliplatin may be a better chemotherapy backbone for combination chemoimmunotherapy regimens compared with cisplatin.",
+		"Patients with previously untreated metastatic gastroesophageal adenocarcinoma received 5-fluorouracil, leucovorin, and oxaliplatin (",
+		"The mean relative dose intensities during the first 6 months of treatment for regorafenib, oxaliplatin, bolus 5-FU, and infusional 5-FU were 95.8%, 80%, 83.4%, and 88.4%, respectively.",
+		"Patients with previously untreated metastatic gastroesophageal adenocarcinoma received 5-fluorouracil, leucovorin, and oxaliplatin ( The primary endpoint was 6-month progression-free survival (PFS)."],
+		"term": "oxaliplatin",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"links": [{
+			"sublinks": [{
+				"sentences": ["Preclinical and clinical data suggest that several growth factors regulate angiogenesis to promote cancer cell growth and metastasis, and antiangiogenic agents including ramucirumab and regorafenib have demonstrated efficacy as second- or third-line treatment for EG cancer [8, 9, 19]."],
+				"term": "metastasis"
+			},
+			{
+				"sentences": ["Preclinical and clinical data suggest that several growth factors regulate angiogenesis to promote cancer cell growth and metastasis, and antiangiogenic agents including ramucirumab and regorafenib have demonstrated efficacy as second- or third-line treatment for EG cancer [8, 9, 19]."],
+				"term": "second cancer"
+			}],
+			"term": "adverse drug reaction - disease"
+		}],
+		"score": 0.8383791446685791,
+		"sentences": ["Five patients (14%) were treated with immune checkpoint inhibitors, and 15 patients (42%) patients received ramucirumab in combination with chemotherapy.",
+		"Preclinical and clinical data suggest that several growth factors regulate angiogenesis to promote cancer cell growth and metastasis, and antiangiogenic agents including ramucirumab and regorafenib have demonstrated efficacy as second- or third-line treatment for EG cancer [8, 9, 19].",
+		"[12]. Likewise, the recently reported randomized, placebo-controlled phase III RAINFALL trial found that adding ramucirumab to cisplatin/"],
+		"term": "ramucirumab",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"score": 0.8320063948631287,
+		"sentences": ["This HER2 discordance between NGS and IHC/FISH may be partly attributed to tumor heterogeneity, as we have previously demonstrated Larger data sets would be necessary to make definitive conclusions regarding the impact of specific alterations on treatment response."],
+		"term": "treatment response",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.8316972255706787,
+		"sentences": ["Tumor response was assessed using computed tomography or magnetic resonance imaging every 8 weeks."],
+		"term": "nuclear magnetic resonance imaging",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.8048608303070068,
+		"sentences": ["Hence, it will be interesting to await results from the phase III CheckMate649 trial (NCT02872116) comparing first-line fluoropyrimidine and oxaliplatin plus nivolumab versus fluoropyrimidine and oxaliplatin."],
+		"term": "fluoropyrimidine",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"links": [{
+			"sublinks": [{
+				"term": "adverse event"
+			}],
+			"term": "drug therapy"
+		}],
+		"score": 0.7909902334213257,
+		"sentences": ["In addition, we determined the LST score, a surrogate marker for HRD based on copy number data [26]. Subsequent therapy n + Ram, n + Tras, n : Third line Irinotecan-based 2 0 0   Taxane-based 12 4 2 Checkpoint inhibitors 2 0 0   Abbreviations: 5-FU, Treatment-related adverse events occurring in >10% of patients"],
+		"term": "irinotecan",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"links": [{
+			"sublinks": [{
+				"term": "adverse event"
+			}],
+			"term": "drug therapy"
+		},
+		{
+			"sublinks": [{
+				"sentences": ["Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1."],
+				"term": "intravenous_drug_administration"
+			}],
+			"term": "route of drug administration"
+		}],
+		"score": 0.7873578071594238,
+		"sentences": ["Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1.",
+		"In addition, we determined the LST score, a surrogate marker for HRD based on copy number data [26]. Subsequent therapy n + Ram, n + Tras, n : Third line Irinotecan-based 2 0 0   Taxane-based 12 4 2 Checkpoint inhibitors 2 0 0   Abbreviations: 5-FU, Treatment-related adverse events occurring in >10% of patients",
+		"Patients with previously untreated metastatic gastroesophageal adenocarcinoma received 5-fluorouracil, leucovorin, and oxaliplatin (",
+		"The mean relative dose intensities during the first 6 months of treatment for regorafenib, oxaliplatin, bolus 5-FU, and infusional 5-FU were 95.8%, 80%, 83.4%, and 88.4%, respectively.",
+		"Patients with previously untreated metastatic gastroesophageal adenocarcinoma received 5-fluorouracil, leucovorin, and oxaliplatin ( The primary endpoint was 6-month progression-free survival (PFS)."],
+		"term": "fluorouracil",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"score": 0.7640475034713745,
+		"term": "drug efficacy",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.7636762857437134,
+		"term": "overall survival",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"links": [{
+			"sublinks": [{
+				"sentences": ["Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1."],
+				"term": "intravenous_drug_administration"
+			}],
+			"term": "route of drug administration"
+		}],
+		"score": 0.7595804929733276,
+		"sentences": ["Patients with previously untreated metastatic gastroesophageal adenocarcinoma received 5-fluorouracil, leucovorin, and oxaliplatin (",
+		"Regorafenib was administered on days 4 to 10 of a 14-day cycle as four 40-mg tablets, with mFOLFOX6 (oxaliplatin 85 mg/m2 intravenously [IV], leucovorin 400 mg mg/m2 IV, 5-FU 400 mg/m2 IV bolus, 5-FU 2,400 mg/m2/day continuous IV infusion over 48 h) on day 1.",
+		"Patients with previously untreated metastatic gastroesophageal adenocarcinoma received 5-fluorouracil, leucovorin, and oxaliplatin ( The primary endpoint was 6-month progression-free survival (PFS)."],
+		"term": "folinic acid",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"score": 0.7377776503562927,
+		"term": "clinical article",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.7373316287994385,
+		"sentences": ["were neutropenia (36%), leucopenia (11%) and hypertension (8%).",
+		"Toxicity : The most common grade 3\u20134 treatment-related AEs were neutropenia (36%), leucopenia (11%), and hypertension (8%; Table 3)."],
+		"term": "neutropenia",
+		"termType": "DIS",
+		"weight": "b"
+	},
+	{
+		"score": 0.7357988953590393,
+		"sentences": ["[12]. Likewise, the recently reported randomized, placebo-controlled phase III RAINFALL trial found that adding ramucirumab to cisplatin/"],
+		"term": "controlled study",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.7293384075164795,
+		"sentences": ["We identified six patients with ERBB2 amplifications, although only three were HER2 positive by clinical criteria (immunohistochemistry [IHC] and/or",
+		"(14) Abbreviations: FISH, fluorescence in situ hybridization; HER2, human epidermal growth factor receptor 2; KPS, Karnofsky performance status; IHC, immunohistochemistry.    "],
+		"term": "immunohistochemistry",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.7190502285957336,
+		"sentences": ["Lastly, we assessed for associations between response and homologous recombination deficiency (HRD), as defects in HR have been associated with response to platinum-based chemotherapy [24, 25].",
+		"Consistent with this notion, there are preclinical data in several tumor types suggesting that platinum resistance enhances secretion of or dependence on angiogenic factors like VEGF Several studies have demonstrated that paclitaxel has antiangiogenic properties [31], and in vivo animal data indicate that paclitaxel strongly mobilizes endothelial precursors whereas cisplatin does not [32]. Lastly, patients receiving second-line treatment are likely to be chemotherapy refractory, and therefore we may observe a larger effect with angiogenesis blockade compared with first-line treatment.",
+		"Next-generation sequencing did not identify any genomic alterations significantly correlated with response, and there was no association between homologous recombination deficiency and PFS with platinum-based chemotherapy."],
+		"term": "platinum",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"score": 0.7041443586349487,
+		"sentences": ["Anemia 8 (22) 0 0 0 Hand-foot syndrome 7 (19) 0 0 0 Vomiting 7 (19) 0 0 0   Diarrhea 4"],
+		"term": "hand foot syndrome",
+		"termType": "DIS",
+		"weight": "b"
+	},
+	{
+		"score": 0.6637921333312988,
+		"sentences": ["Tumor response was assessed using computed tomography or magnetic resonance imaging every 8 weeks."],
+		"term": "computer assisted tomography",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.6584557294845581,
+		"sentences": ["One patient had a CR that lasted 48.2 months, 18 patients (51%) had a PR, and 8 patients (23%) had SD The ORR (CR + PR) was 54% (95% CI, 37%\u201370%), and the disease control rate (CR + PR + SD) was 77% (95% CI, 63%\u201391%).    ",
+		"The 6-month PFS was 53% (95% confidence interval [CI], 38%\u201371%), the objective response rate was 54% (95% CI, 37%\u201370%), and the disease control rate was 77% (95% CI, 67%\u201394%)."],
+		"term": "disease control",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.6417161822319031,
+		"term": "major clinical study",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.6307411193847656,
+		"sentences": ["This phase II trial indicates that the combination of regorafenib and FOLFOX is well tolerated but does not add to the efficacy of first-line chemotherapy in metastatic esophagogastric cancer.",
+		"  We evaluated whether regorafenib augments the antitumor effect of first-line chemotherapy in metastatic esophagogastric cancer.",
+		"We evaluated whether regorafenib augments the antitumor effect of first-line chemotherapy in metastatic esophagogastric cancer.",
+		"Regorafenib in Combination with First-Line Chemotherapy for Metastatic Esophagogastric Cancer",
+		"For example, the response rate for single-agent nivolumab in patients with chemotherapy-refractory metastatic gastric cancer was 11% in a phase III trial [33]; impressively, however, a recently reported phase NCT03406871) combining regorafenib and nivolumab in previously treated patients with gastric cancer showed a response rate of 44% [34]. Although these data need to be validated in larger cohorts, they suggest that regorafenib may have synergy with immunotherapy.",
+		"Consistent with this notion, there are preclinical data in several tumor types suggesting that platinum resistance enhances secretion of or dependence on angiogenic factors like VEGF Several studies have demonstrated that paclitaxel has antiangiogenic properties [31], and in vivo animal data indicate that paclitaxel strongly mobilizes endothelial precursors whereas cisplatin does not [32]. Lastly, patients receiving second-line treatment are likely to be chemotherapy refractory, and therefore we may observe a larger effect with angiogenesis blockade compared with first-line treatment."],
+		"term": "cancer chemotherapy",
+		"termType": "MED",
+		"weight": "a"
+	},
+	{
+		"score": 0.6182886958122253,
+		"sentences": ["were neutropenia (36%), leucopenia (11%) and hypertension (8%).",
+		"Toxicity : The most common grade 3\u20134 treatment-related AEs were neutropenia (36%), leucopenia (11%), and hypertension (8%; Table 3)."],
+		"term": "leukopenia",
+		"termType": "DIS",
+		"weight": "b"
+	},
+	{
+		"score": 0.6006779670715332,
+		"term": "middle aged",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.5799475312232971,
+		"term": "disease course",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.5654035210609436,
+		"sentences": ["(14) Abbreviations: FISH, fluorescence in situ hybridization; HER2, human epidermal growth factor receptor 2; KPS, Karnofsky performance status; IHC, immunohistochemistry.    "],
+		"term": "fluorescence in situ hybridization",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.5468949675559998,
+		"sentences": ["TheOncologist.com on-site cancer-associated gene-bait capture, next-generation sequencing (NGS) assay initially using a panel of 341 and, more recently, 410 and 468 genes.",
+		"Next-generation sequencing did not identify any genomic alterations significantly correlated with response, and there was no association between homologous recombination deficiency and PFS with platinum-based chemotherapy."],
+		"term": "next generation sequencing",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.544349193572998,
+		"sentences": ["It is possible that oxaliplatin may be a better chemotherapy backbone for combination chemoimmunotherapy regimens compared with cisplatin.",
+		"Moreover, checkpoint inhibitors have been safely combined with chemotherapy [35]. Importantly, multiple studies have shown that oxaliplatin induces immunologic cell death, whereas cisplatin does not activate immunologic cell death on its own despite the presumably similar mechanism of action",
+		"Consistent with this notion, there are preclinical data in several tumor types suggesting that platinum resistance enhances secretion of or dependence on angiogenic factors like VEGF Several studies have demonstrated that paclitaxel has antiangiogenic properties [31], and in vivo animal data indicate that paclitaxel strongly mobilizes endothelial precursors whereas cisplatin does not [32]. Lastly, patients receiving second-line treatment are likely to be chemotherapy refractory, and therefore we may observe a larger effect with angiogenesis blockade compared with first-line treatment."],
+		"term": "cisplatin",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"links": [{
+			"term": "endogenous compound"
+		}],
+		"score": 0.5236876606941223,
+		"sentences": ["(14) Abbreviations: FISH, fluorescence in situ hybridization; HER2, human epidermal growth factor receptor 2; KPS, Karnofsky performance status; IHC, immunohistochemistry.    "],
+		"term": "epidermal growth factor receptor",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"score": 0.518338143825531,
+		"sentences": ["Anemia 8 (22) 0 0 0 Hand-foot syndrome 7 (19) 0 0 0 Vomiting 7 (19) 0 0 0   Diarrhea 4"],
+		"term": "diarrhea",
+		"termType": "DIS",
+		"weight": "b"
+	},
+	{
+		"score": 0.5181607604026794,
+		"sentences": ["AEs were graded as per the National Cancer Institute Common Terminology Criteria for Adverse Events Statistical Analysis : All patients who received regorafenib and FOLFOX were included in the description of baseline characteristics, efficacy, and safety analysis.",
+		"The most common grade 3\u20134 treatmentrelated adverse events",
+		"In addition, we determined the LST score, a surrogate marker for HRD based on copy number data [26]. Subsequent therapy n + Ram, n + Tras, n : Third line Irinotecan-based 2 0 0   Taxane-based 12 4 2 Checkpoint inhibitors 2 0 0   Abbreviations: 5-FU, Treatment-related adverse events occurring in >10% of patients",
+		"Treatment was continued until intolerable adverse events (AEs), progressive disease, or death."],
+		"term": "adverse event",
+		"termType": "DIS",
+		"weight": "b"
+	},
+	{
+		"score": 0.5158825516700745,
+		"sentences": ["Consistent with this notion, there are preclinical data in several tumor types suggesting that platinum resistance enhances secretion of or dependence on angiogenic factors like VEGF Several studies have demonstrated that paclitaxel has antiangiogenic properties [31], and in vivo animal data indicate that paclitaxel strongly mobilizes endothelial precursors whereas cisplatin does not [32]. Lastly, patients receiving second-line treatment are likely to be chemotherapy refractory, and therefore we may observe a larger effect with angiogenesis blockade compared with first-line treatment."],
+		"term": "paclitaxel",
+		"termType": "DRG",
+		"weight": "b"
+	},
+	{
+		"score": 0.46820348501205444,
+		"sentences": ["Patients who came off study before 6 months (lost to follow-up or withdrew consent) without documented progression were considered as events for the primary endpoint of 6-month PFS.",
+		"OS was calculated from start of treatment until date of death or follow-up.",
+		"With median follow-up among survivors of 33 months, we observed 33 deaths at the time of analysis; 19 patients were progression free at 6 months, resulting in a 6-month PFS of 53% (95% CI, 38%\u201371%)."],
+		"term": "follow up",
+		"termType": "MED",
+		"weight": "b"
+	},
+	{
+		"score": 0.46375927329063416,
+		"sentences": ["[12]. Likewise, the recently reported randomized, placebo-controlled phase III RAINFALL trial found that adding ramucirumab to cisplatin/"],
+		"term": "randomized controlled trial",
+		"termType": "MED",
+		"weight": "b"
+	}],
+	"timestamp": 1580303872.0,
+	"version": "1.0"
+}

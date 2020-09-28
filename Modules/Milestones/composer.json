@@ -1,0 +1,25 @@
+{
+    "name": "selva/milestones",
+    "description": "",
+    "authors": [
+        {
+            "name": "Selvabalaji",
+            "email": "selva@gitbench.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Milestones\\Providers\\MilestonesServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Milestones\\": ""
+        }
+    }
+}

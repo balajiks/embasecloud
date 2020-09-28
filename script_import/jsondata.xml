@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checktags>
+   <item>
+      <category>Organism Type</category>
+      <name>human</name>
+      <description>Use for all items where humans are a feature, including studies on human tissue, cells or cell components. Note: Use for both original and non-original items.</description>
+   </item>
+   <item>
+      <category>Organism Type</category>
+      <name>nonhuman</name>
+      <description>Use for all items on nonhuman organisms (animals, bacteria, viruses, plants etc.) or on tissue, cells or cell components from such organisms. Note: Use for both original and non-original items.</description>
+   </item>
+   <item>
+      <category>Organism Type</category>
+      <name>mouse</name>
+      <description>Use for studies in which mice or mouse tissue/cells are used</description>
+   </item>
+   <item>
+      <category>Organism Type</category>
+      <name>rat</name>
+      <description>Use for studies in which rats or rat tissue/cells are used</description>
+   </item>
+   <item>
+      <category>Others</category>
+      <name>controlled study</name>
+      <description>Use for original studies with a control group, i.e. an original study in which previously defined groups are compared with each other. Use for studies with control material or control procedures. Retrospective studies may also be included. 	Do not use for comparison of the same study subjects before and after treatment (this falls under treatment efficacy).</description>
+   </item>
+   <item>
+      <category>Others</category>
+      <name>diagnostic test accuracy study</name>
+      <description>Use for an original study or systematic review which assesses how accurately a test distinguishes humans or animals having a condition or disease (diagnosis or prognosis), from those who do not.</description>
+   </item>
+   <item>
+      <category>Animal Study Type (general)</category>
+      <name>animal experiment</name>
+      <description>Use for original studies using whole animals</description>
+   </item>
+   <item>
+      <category>Animal Study Type (general)</category>
+      <name>animal model</name>
+      <description>Use for original studies using animal models of disease</description>
+   </item>
+   <item>
+      <category>Animal Study Type (general)</category>
+      <name>animal tissue</name>
+      <description>Use for original studies on normal or diseased animal tissue</description>
+   </item>
+   <item>
+      <category>Animal Study Type (general)</category>
+      <name>animal cell</name>
+      <description>Use for original studies on normal or diseased animal cells</description>
+   </item>
+   <item>
+      <category>Human Study Type (general)</category>
+      <name>major clinical study</name>
+      <description>Use for original studies reporting clinical work on &gt;50 patients</description>
+   </item>
+   <item>
+      <category>Human Study Type (general)</category>
+      <name>clinical article</name>
+      <!-- <description>Use for original studies reporting clinical work on 5-50 patients</description> -->
+      <description>Use for original studies reporting clinical work on 1-50 patients</description>
+   </item>
+   <item>
+      <category>Human Study Type (general)</category>
+      <name>case report</name>
+      <!-- <description>Use for original studies reporting clinical work on not more than 4 individual  patients</description> -->
+      <description>Use for original studies reporting clinical work which details the symptoms, signs, diagnosis, treatment, and follow-up of one or more individual patients (cases). Use when identified as such by the author/s as well. Individual patients (cases) are indicated by information such as initials, patient identification number, date of birth, age, age group or gender. Also index the check tag clinical article</description>
+   </item>
+   <item>
+      <category>Human Study Type (general)</category>
+      <name>human experiment</name>
+      <description>Use for original items reporting experiments on humans (for example psychological tests, pharmacokinetic studies) which are not clinical. The study subjects are not patients or at least not studied as patients.</description>
+   </item>
+   <item>
+      <category>Human Study Type (general)</category>
+      <name>normal human</name>
+      <description>Use for original studies on normal humans or normal (non-diseased) human tissue. Consider also human experiment. Do not use normal human for normal human controls.</description>
+   </item>
+   <item>
+      <category>Human Study Type (general)</category>
+      <name>human tissue</name>
+      <description>Use for original studies on normal or diseased human tissue</description>
+   </item>
+   <item>
+      <category>Human Study Type (general)</category>
+      <name>human cell</name>
+      <description>Use for original studies on normal or diseased human cells</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>clinical trial</name>
+      <description>Use for an original item that is the report of a prospective clinical study, in which the (comparative) efficacy of one or more medical interventions in humans is evaluated; use also for prospective clinical veterinary trials in which the (comparative) efficacy of one or more medical interventions in animals is evaluated.  	Note that diagnostic, prophylactic, palliative and therapeutic interventions (drugs, devices or techniques) can be evaluated by clinical trials.</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>controlled clinical trial</name>
+      <description>Use for an original item that is the report of a clinical trial using a control group (for example placebo, sham or no treatment, standard intervention) for comparison with the experimental intervention.</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>randomized controlled trial</name>
+      <description>Use for an original item that is the report of a clinical trial using a control group (for example placebo, sham or no treatment, standard intervention) for comparison with the experimental intervention, with random allocation of subjects to experimental and control groups.</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>phase 1 clinical trial</name>
+      <description>Use for an original item that itself defines the reported study as a phase 1 clinical trial (limited to drug trials).</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>phase 2 clinical trial</name>
+      <description>Use for an original item that itself defines the reported study as a phase 2 clinical trial (limited to drug trials).</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>phase 3 clinical trial</name>
+      <description>Use for an original item that itself defines the reported study as a phase 3 clinical trial (limited to drug trials).</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>phase 4 clinical trial</name>
+      <description>Use for an original item that itself defines the reported study as a phase 4 clinical trial (limited to drug trials).</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>multicenter study</name>
+      <description>Use for an original item that reports a clinical trial performed at two or more medical centers.</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>meta analysis</name>
+      <description>Use for an original item that reports an evaluation of a medical intervention by the statistical analysis of a large collection of analysis results from individual studies for the purpose of integrating the findings; not limited to clinical trials.</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>systematic review</name>
+      <description>Use for a study that systematically summarizes all relevant evidence, meeting pre-specified eligibility criteria, to answer a given research question. Include items identified as such by the author.</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>observational study</name>
+      <description>Use for an original study that is a report on a clinical study in which the subjects may receive diagnostic, therapeutic, or other types of interventions, but the subjects are not assigned to specific interventions (as in an interventional study); usually identified as such by the author/s</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>pilot study</name>
+      <description>Use for an original study that is a report of a small-scale test of a method or procedure to be used on a larger scale if the pilot study demonstrates that the method or procedure can work; usually identified as such by the author/s</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>longitudinal study</name>
+      <description>Use for an original study that is a report of an assessment of variables relating to an individual or group of individuals over a period of time; usually identified as such by the author/s</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>retrospective study</name>
+      <description>Use for an original study that is a report on tests of etiological hypotheses about exposure to causal factors relating to characteristics of the patients in the study or to events/experiences in the past; patients with the disease or outcome are compared to unaffected subjects; usually identified as such by the author/s</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>case control study</name>
+      <description>Use for an original study that starts with the identification of patients with a disease of interest and a control (comparison, referent) group and reports on the relationship of an attribute to the disease by comparing patients identified as having the disease compared to healthy subjects with regard to the frequency or levels of the attribute in each group; usually identified as such by the author/s</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>cohort analysis</name>
+      <description>Use for an original study identifying subsets of a defined population in which exposure to factors could influence the likelihood of the disease or other outcome; cohorts are defined populations which are followed to determine distinguishing subgroup characteristics; usually identified as such by the author/s</description>
+   </item>
+   <item>
+      <category>Specific Study Types</category>
+      <name>cross-sectional study</name>
+      <description>Use for an original study in which the presence or absence of disease or other health-related variables are determined in each member of the study population or in a representative sample at one particular (moment in) time; this is in contrast to a longitudinal study which follows patients over a period of time; usually identified as such by the author/s</description>
+   </item>
+   <item>
+      <category>Procedures</category>
+      <name>double blind procedure</name>
+      <description>Use for original items reporting clinical trials that are identified as double blind procedure by the author.</description>
+   </item>
+   <item>
+      <category>Procedures</category>
+      <name>single blind procedure</name>
+      <description>Use for original items reporting clinical trials that are identified as single blind procedure by the author.</description>
+   </item>
+   <item>
+      <category>Procedures</category>
+      <name>crossover procedure</name>
+      <description>Use for original items reporting clinical trials that are identified as crossover procedure by the author.</description>
+   </item>
+   <item>
+      <category>Gender Checktag</category>
+      <name>male</name>
+      <description>Use for items reporting both clinical and experimental studies mentioning male humans or animals, including studies on tissue, cells or cell components</description>
+   </item>
+   <item>
+      <category>Gender Checktag</category>
+      <name>female</name>
+      <description>Use for items reporting both clinical and experimental studies mentioning female humans or animals, including studies on tissue, cells or cell components</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>embryo</name>
+      <description>Use as age indicator in human or animal studies; the first trimester after conception if human</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>fetus</name>
+      <description>Use as age indicator in human or animal studies; second and third trimesters after conception if human</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>newborn</name>
+      <description>Use as age indicator in human or animal studies; newborns aged up to 1 month (&lt;1 month) if human</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>infant</name>
+      <description>Use as age indicator in human or animal studies; infants aged 1 month and over but less than 1 year (age ≥1 month to &lt;1 year) if human</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>child</name>
+      <description>Use as age indicator in human studies only; children aged 1 year and over but less than 13 years (age ≥1 to  &lt;13 years or unspecified)</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>preschool child</name>
+      <description>Use as age indicator in human studies only; children aged 1 year and over but less than 7 years (age ≥1 to &lt;7 years), in addition index the check tag child</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>school child</name>
+      <description>Use as age indicator in human studies only; children aged 7 years and over but less than 13 years (age ≥7 to &lt;13 years), in addition index the check tag child</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>adolescent</name>
+      <description>Use as age indicator in human or animal studies; age 13 years and over but less than 18 years (age ≥13 to &lt;18 years) if human</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>adult</name>
+      <description>Use as age indicator in human or animal studies; age 18 years and over but less than 65 years (age ≥18 to &lt;65 years) if human</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>young adult</name>
+      <description>Use as age indicator in human or animal studies; age 18 years and over but less than 25 years (age ≥18 to &lt;25 years) if human. In addition index the check tag adult</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>middle aged</name>
+      <description>Use as age indicator in human or animal studies; age 45 years and over but less than 65 years (age ≥45 to &lt;65 years) if human. In addition index the check tag adult</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>aged</name>
+      <description>Use as age indicator in human or animal studies; age 65 years and over (age ≥65) if human</description>
+   </item>
+   <item>
+      <category>Age Checktag</category>
+      <name>very elderly</name>
+      <description>Use as age indicator in human or animal studies; age 80 years and over (≥80 years) if human. In addition index the check tag aged</description>
+   </item>
+</checktags>

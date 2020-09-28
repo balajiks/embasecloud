@@ -1,0 +1,25 @@
+{
+    "name": "selva/indexings",
+    "description": "",
+    "authors": [
+        {
+            "name": "Selvabalaji",
+            "email": "selva@gitbench.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Indexing\\Providers\\IndexingServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Indexing\\": ""
+        }
+    }
+}

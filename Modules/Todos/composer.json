@@ -1,0 +1,25 @@
+{
+    "name": "selva/todos",
+    "description": "",
+    "authors": [
+        {
+            "name": "Selvabalaji",
+            "email": "selva@gitbench.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Todos\\Providers\\TodosServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Todos\\": ""
+        }
+    }
+}

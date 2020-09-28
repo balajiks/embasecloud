@@ -1,0 +1,16 @@
+{
+    "name": "Indexing",
+    "alias": "indexing",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Indexing\\Providers\\IndexingServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

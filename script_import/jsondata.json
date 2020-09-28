@@ -1,0 +1,254 @@
+{
+  "checktags": {
+    "category": [
+      {
+        "type": "Organism Type",
+        "item": [
+          {
+            "name": "human",
+				"description": "Use for all items where humans are a feature, including studies on human tissue, cells or cell components. Note: Use for both original and non-original items."
+          },
+          {
+            "name": "nonhuman",
+            "description": "Use for all items on nonhuman organisms (animals, bacteria, viruses, plants etc.) or on tissue, cells or cell components from such organisms. Note: Use for both original and non-original items."
+          },
+          {
+            "name": "mouse",
+            "description": "Use for studies in which mice or mouse tissue/cells are used"
+          },
+          {
+            "name": "rat",
+            "description": "Use for studies in which rats or rat tissue/cells are used"
+          }
+        ]
+      },
+      {
+        "type": "Others",
+        "item": [
+          {
+            "name": "controlled study",
+            "description": "Use for original studies with a control group, i.e. an original study in which previously defined groups are compared with each other. Use for studies with control material or control procedures. Retrospective studies may also be included. 	Do not use for comparison of the same study subjects before and after treatment (this falls under treatment efficacy)."
+          },
+          {
+            "name": "diagnostic test accuracy study",
+            "description": "Use for an original study or systematic review which assesses how accurately a test distinguishes humans or animals having a condition or disease (diagnosis or prognosis), from those who do not."
+          }
+        ]
+      },
+      {
+        "type": "Animal Study Type (general)",
+        "item": [
+          {
+            "name": "animal experiment",
+            "description": "Use for original studies using whole animals"
+          },
+          {
+            "name": "animal model",
+            "description": "Use for original studies using animal models of disease"
+          },
+          {
+            "name": "animal tissue",
+            "description": "Use for original studies on normal or diseased animal tissue"
+          },
+          {
+            "name": "animal cell",
+            "description": "Use for original studies on normal or diseased animal cells"
+          }
+        ]
+      },
+      {
+        "type": "Human Study Type (general)",
+        "item": [
+          {
+            "name": "major clinical study",
+            "description": "Use for original studies reporting clinical work on >50 patients"
+          },
+          {
+            "name": "clinical article",
+            "description": "Use for original studies reporting clinical work on 1-50 patients"
+          },
+          {
+            "name": "case report",
+            "description": "Use for original studies reporting clinical work which details the symptoms, signs, diagnosis, treatment, and follow-up of one or more individual patients (cases). Use when identified as such by the author/s as well. Individual patients (cases) are indicated by information such as initials, patient identification number, date of birth, age, age group or gender. Also index the check tag clinical article"
+          },
+          {
+            "name": "human experiment",
+            "description": "Use for original items reporting experiments on humans (for example psychological tests, pharmacokinetic studies) which are not clinical. The study subjects are not patients or at least not studied as patients."
+          },
+          {
+            "name": "normal human",
+            "description": "Use for original studies on normal humans or normal (non-diseased) human tissue. Consider also human experiment. Do not use normal human for normal human controls."
+          },
+          {
+            "name": "human tissue",
+            "description": "Use for original studies on normal or diseased human tissue"
+          },
+          {
+            "name": "human cell",
+            "description": "Use for original studies on normal or diseased human cells"
+          }
+        ]
+      },
+      {
+        "type": "Specific Study Types",
+        "item": [
+          {
+            "name": "clinical trial",
+            "description": "Use for an original item that is the report of a prospective clinical study, in which the (comparative) efficacy of one or more medical interventions in humans is evaluated; use also for prospective clinical veterinary trials in which the (comparative) efficacy of one or more medical interventions in animals is evaluated.  	Note that diagnostic, prophylactic, palliative and therapeutic interventions (drugs, devices or techniques) can be evaluated by clinical trials."
+          },
+          {
+            "name": "controlled clinical trial",
+            "description": "Use for an original item that is the report of a clinical trial using a control group (for example placebo, sham or no treatment, standard intervention) for comparison with the experimental intervention. "
+          },
+          {
+            "name": "randomized controlled trial",
+            "description": "Use for an original item that is the report of a clinical trial using a control group (for example placebo, sham or no treatment, standard intervention) for comparison with the experimental intervention, with random allocation of subjects to experimental and control groups."
+          },
+          {
+            "name": "phase 1 clinical trial",
+            "description": "Use for an original item that itself defines the reported study as a phase 1 clinical trial (limited to drug trials)."
+          },
+          {
+            "name": "phase 2 clinical trial",
+            "description": "Use for an original item that itself defines the reported study as a phase 2 clinical trial (limited to drug trials)."
+          },
+          {
+            "name": "phase 3 clinical trial",
+            "description": "Use for an original item that itself defines the reported study as a phase 3 clinical trial (limited to drug trials)."
+          },
+          {
+            "name": "phase 4 clinical trial",
+            "description": "Use for an original item that itself defines the reported study as a phase 4 clinical trial (limited to drug trials)."
+          },
+          {
+            "name": "multicenter study",
+            "description": "Use for an original item that reports a clinical trial performed at two or more medical centers."
+          },
+          {
+            "name": "meta analysis",
+            "description": "Use for an original item that reports an evaluation of a medical intervention by the statistical analysis of a large collection of analysis results from individual studies for the purpose of integrating the findings; not limited to clinical trials. "
+          },
+          {
+            "name": "systematic review",
+            "description": "Use for a study that systematically summarizes all relevant evidence, meeting pre-specified eligibility criteria, to answer a given research question. Include items identified as such by the author."
+          },
+          {
+            "name": "observational study",
+            "description": "Use for an original study that is a report on a clinical study in which the subjects may receive diagnostic, therapeutic, or other types of interventions, but the subjects are not assigned to specific interventions (as in an interventional study); usually identified as such by the author/s"
+          },
+          {
+            "name": "pilot study",
+            "description": "Use for an original study that is a report of a small-scale test of a method or procedure to be used on a larger scale if the pilot study demonstrates that the method or procedure can work; usually identified as such by the author/s"
+          },
+          {
+            "name": "longitudinal study",
+            "description": "Use for an original study that is a report of an assessment of variables relating to an individual or group of individuals over a period of time; usually identified as such by the author/s"
+          },
+          {
+            "name": "retrospective study",
+            "description": "Use for an original study that is a report on tests of etiological hypotheses about exposure to causal factors relating to characteristics of the patients in the study or to events/experiences in the past; patients with the disease or outcome are compared to unaffected subjects; usually identified as such by the author/s"
+          },
+          {
+            "name": "case control study",
+            "description": "Use for an original study that starts with the identification of patients with a disease of interest and a control (comparison, referent) group and reports on the relationship of an attribute to the disease by comparing patients identified as having the disease compared to healthy subjects with regard to the frequency or levels of the attribute in each group; usually identified as such by the author/s"
+          },
+          {
+            "name": "cohort analysis",
+            "description": "Use for an original study identifying subsets of a defined population in which exposure to factors could influence the likelihood of the disease or other outcome; cohorts are defined populations which are followed to determine distinguishing subgroup characteristics; usually identified as such by the author/s"
+          },
+          {
+            "name": "cross-sectional study",
+            "description": "Use for an original study in which the presence or absence of disease or other health-related variables are determined in each member of the study population or in a representative sample at one particular (moment in) time; this is in contrast to a longitudinal study which follows patients over a period of time; usually identified as such by the author/s"
+          }
+        ]
+      },
+      {
+        "type": "Procedures",
+        "item": [
+          {
+            "name": "double blind procedure",
+            "description": "Use for original items reporting clinical trials that are identified as double blind procedure by the author."
+          },
+          {
+            "name": "single blind procedure",
+            "description": "Use for original items reporting clinical trials that are identified as single blind procedure by the author. "
+          },
+          {
+            "name": "crossover procedure",
+            "description": "Use for original items reporting clinical trials that are identified as crossover procedure by the author. "
+          }
+        ]
+      },
+      {
+        "type": "Gender Checktag",
+        "item": [
+          {
+            "name": "male",
+            "description": "Use for items reporting both clinical and experimental studies mentioning male humans or animals, including studies on tissue, cells or cell components"
+          },
+          {
+            "name": "female",
+            "description": "Use for items reporting both clinical and experimental studies mentioning female humans or animals, including studies on tissue, cells or cell components"
+          }
+        ]
+      },
+      {
+        "type": "Age Checktag",
+        "item": [
+          {
+            "name": "embryo",
+            "description": "Use as age indicator in human or animal studies; the first trimester after conception if human"
+          },
+          {
+            "name": "fetus",
+            "description": "Use as age indicator in human or animal studies; second and third trimesters after conception if human"
+          },
+          {
+            "name": "newborn",
+            "description": "Use as age indicator in human or animal studies; newborns aged up to 1 month (<1 month) if human"
+          },
+          {
+            "name": "infant",
+            "description": "Use as age indicator in human or animal studies; infants aged 1 month and over but less than 1 year (age =1 month to <1 year) if human"
+          },
+          {
+            "name": "child",
+            "description": "Use as age indicator in human studies only; children aged 1 year and over but less than 13 years (age =1 to  <13 years or unspecified)"
+          },
+          {
+            "name": "preschool child",
+            "description": "Use as age indicator in human studies only; children aged 1 year and over but less than 7 years (age =1 to <7 years), in addition index the check tag child"
+          },
+          {
+            "name": "school child",
+            "description": "Use as age indicator in human studies only; children aged 7 years and over but less than 13 years (age =7 to <13 years), in addition index the check tag child"
+          },
+          {
+            "name": "adolescent",
+            "description": "Use as age indicator in human or animal studies; age 13 years and over but less than 18 years (age =13 to <18 years) if human"
+          },
+          {
+            "name": "adult",
+            "description": "Use as age indicator in human or animal studies; age 18 years and over but less than 65 years (age =18 to <65 years) if human"
+          },
+          {
+            "name": "young adult",
+            "description": "Use as age indicator in human or animal studies; age 18 years and over but less than 25 years (age =18 to <25 years) if human. In addition index the check tag adult"
+          },
+          {
+            "name": "middle aged",
+            "description": "Use as age indicator in human or animal studies; age 45 years and over but less than 65 years (age =45 to <65 years) if human. In addition index the check tag adult"
+          },
+          {
+            "name": "aged",
+            "description": "Use as age indicator in human or animal studies; age 65 years and over (age =65) if human"
+          },
+          {
+            "name": "very elderly",
+            "description": "Use as age indicator in human or animal studies; age 80 years and over (=80 years) if human. In addition index the check tag aged"
+          }
+        ]
+      }
+    ]
+  }
+}

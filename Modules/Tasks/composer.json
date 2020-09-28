@@ -1,0 +1,25 @@
+{
+    "name": "selva/tasks",
+    "description": "",
+    "authors": [
+        {
+            "name": "Selvabalaji",
+            "email": "selva@gitbench.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Tasks\\Providers\\TasksServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tasks\\": ""
+        }
+    }
+}

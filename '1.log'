@@ -1,0 +1,6 @@
+
+In Container.php line 779:
+                                                                  
+  Class Modules\Analytics\Console\ComputeIndexing does not exist  
+                                                                  
+

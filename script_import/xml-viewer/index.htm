@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>embasexml</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.2.1/flatly/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="js/simpleXML.js"></script>
+<link rel="stylesheet" href="css/simpleXML.css" />
+<script language="javascript">
+        $(document).ready(function () {
+		
+            var xml = '<?xml version="1.0" encoding="UTF-8"?><units xmlns="http://www.elsevier.com/xml/ani/ani" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ce="http://www.elsevier.com/xml/ani/common" xsi:schemaLocation="http://www.elsevier.com/xml/ani/ani http://www.elsevier.com/xml/ani/ani512-input-index.xsd"><unit type="JOURNAL-ISSUE"><unit-info><unit-id>15645494</unit-id><order-id>37500511</order-id><parcel-id>none</parcel-id><supplier-id>5</supplier-id><timestamp>2020-03-04T14:23:01Z</timestamp></unit-info><unit-content><bibrecord><item-info><status state="new" stage="S300" /><itemidlist><car-id>919741164</car-id><itemid idtype="PUI">2002565111</itemid></itemidlist></item-info><head><abstracts><abstract original="n"><publishercopyright>Copyright Embase</publishercopyright><ce:para>A systematic review and meta-analysis of cross-reactivity of antibodies induced by H7 influenza vaccine</ce:para></abstract></abstracts><enhancement status="002" type="8"><descriptorgroup><descriptors controlled="y" type="MED"><descriptor><mainterm weight="a">influenza</mainterm></descriptor><descriptor><mainterm weight="a">cross reaction</mainterm></descriptor><descriptor><mainterm weight="a">Influenza A virus (H7N7)</mainterm></descriptor><descriptor><mainterm weight="b">hemagglutination inhibition test</mainterm></descriptor><descriptor><mainterm weight="b">enzyme linked immunosorbent assay</mainterm></descriptor><descriptor><mainterm weight="b">Influenza A virus (H7N1)</mainterm></descriptor><descriptor><mainterm weight="b">Influenza A virus (H7N3)</mainterm></descriptor><descriptor><mainterm weight="b">Influenza A virus (H7N9)</mainterm></descriptor><descriptor><mainterm weight="b">vaccination</mainterm></descriptor><descriptor><mainterm weight="b">antibody titer</mainterm></descriptor><descriptor><mainterm weight="b">risk factor</mainterm></descriptor><descriptor><mainterm weight="b">antibody response</mainterm></descriptor><descriptor><mainterm weight="b">Influenza A virus (H7N2)</mainterm></descriptor><descriptor><mainterm weight="b">human</mainterm></descriptor><descriptor><mainterm weight="b">systematic review</mainterm></descriptor><descriptor><mainterm weight="b">meta analysis</mainterm></descriptor><descriptor><mainterm weight="b">nonhuman</mainterm></descriptor></descriptors><descriptors controlled="y" type="TRP"><descriptor><mainterm weight="a">antibody</mainterm></descriptor><descriptor><mainterm weight="a">influenza vaccine</mainterm></descriptor><descriptor><mainterm weight="a">H7 influenza vaccine</mainterm></descriptor></descriptors></descriptorgroup><classificationgroup><classifications type="EMCLASS"><classification><classification-code>4</classification-code></classification><classification><classification-code>26</classification-code></classification></classifications></classificationgroup></enhancement></head></bibrecord></unit-content></unit></units>';
+
+
+alert('asdasd');
+alert(xml);
+
+$("#dynamicXML-output").simpleXML({ xmlString: xml });
+            /*try {
+                $("#simpleUseCase").empty().simpleXML({ xmlString: xml });
+            } catch (e) {
+                $("#simpleUseCase").empty().append("Exception caught running plugin : " + ex);
+                alert(e);
+            }*/
+
+            $("#dynamicXML-process").click(function () {
+                try {
+                    $("#dynamicXML-output").empty();
+                    var xml = $("#dynamicXML").val();
+                    $("#dynamicXML-output").simpleXML({ xmlString: xml });
+
+                } catch (ex) {
+                    alert("Unable to process XML: " + ex);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+  <div id="dynamicXML-output"></div>
+</div>
+
+</body>
+</html>

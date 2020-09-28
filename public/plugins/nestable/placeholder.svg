@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g>
+    <path fill="rgb(34,112,238)" fill-rule="evenodd" d="M24.46833333 20.94833333L17.795 27.62166667c-.09166667-.03666667-.03666667-.01833334-.12833333-.055V22.25c0-1.00833333.825-1.83333333 1.83333333-1.83333333h4.74833333c.09166667.25666666.11.275.22.53166666z"/>
+    <path fill="none" stroke="rgb(34,112,238)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M23.16666667.25H4.83333333C3.825.25 3 1.075 3 2.08333333v23.83333334C3 26.925 3.825 27.75 4.83333333 27.75H16.915c.495 0 .95333333-.20166667 1.30166667-.53166667l6.25166666-6.25166666C24.81666667 20.61833333 25 20.16 25 19.665V2.08333333C25 1.075 24.175.25 23.16666667.25h0z"/>
+    <g>
+      <path fill="none" stroke="rgb(34,112,238)" stroke-dasharray="0 0 0 0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" d="M5.75 18.58334333h14.14245814"/>
+      <path fill="none" stroke="rgb(34,112,238)" stroke-dasharray="0 0 0 0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" d="M5.75 14.91666667h17.37502"/>
+      <path fill="none" stroke="rgb(34,112,238)" stroke-dasharray="0 0 0 0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" d="M5.75 22.25002h10.14"/>
+    </g>
+    <path fill="rgb(34,112,238)" fill-rule="evenodd" d="M18.58333333 6.66666667h-3.66666666V3h-1.83333334v3.66666667H9.41666667V8.5h3.66666666v3.66666667h1.83333334V8.5h3.66666666V6.66666667z"/>
+  </g>
+</svg>

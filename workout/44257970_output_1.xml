@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibdataset xsi:schemaLocation="http://www.elsevier.com/xml/ani/ani http://www.elsevier.com/xml/ani/ani515.xsd" xmlns="http://www.elsevier.com/xml/ani/ani" xmlns:aii="http://www.elsevier.com/xml/ani/internal" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<item>
+<ait:process-info>
+<ait:date-delivered year="2020" month="08" day="13"/>
+<ait:date-sort year="2020" month="08" day="01"/>
+<ait:status type="core" state="new" stage="S300"/>
+</ait:process-info>
+<bibrecord>
+<item-info>
+<copyright type="Elsevier">Copyright 2020 Elsevier B.V., All rights reserved.</copyright>
+<itemidlist>
+<ce:doi>10.1111/jcmm.15605</ce:doi>
+<itemid idtype="PUI">2005484089</itemid>
+<itemid idtype="CAR-ID">926708366</itemid>
+<itemid idtype="TPA-ID">20200009760213</itemid>
+</itemidlist>
+<history>
+<date-created timestamp="BST 02:28:00" year="2020" month="08" day="13"/>
+</history>
+</item-info>
+<head>
+<citation-info>
+<citation-type code="ar"/>
+<citation-language xml:lang="eng"/>
+<abstract-language xml:lang="eng"/>
+<author-keywords>
+<author-keyword xml:lang="eng" original="y">bortezomib</author-keyword>
+<author-keyword xml:lang="eng" original="y">cell cycle</author-keyword>
+<author-keyword xml:lang="eng" original="y">mesenchymal stem cells</author-keyword>
+<author-keyword xml:lang="eng" original="y">p21<sup>Cip1</sup></author-keyword>
+<author-keyword xml:lang="eng" original="y">p27<sup>Kip1</sup></author-keyword>
+<author-keyword xml:lang="eng" original="y">Xbp1s</author-keyword>
+</author-keywords>
+</citation-info>
+<citation-title>
+<titletext xml:lang="eng" original="y">Cell cycle exit during bortezomib-induced osteogenic differentiation of mesenchymal stem cells was mediated by Xbp1s-upregulated p21<sup>Cip1</sup> and p27<sup>Kip1</sup></titletext>
+</citation-title>
+<author-group>
+<author seq="1" type="auth" author-instance-id="2005484089-f1544d679dc39859e8afe420df4f8a85">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Zhang D.</ce:indexed-name>
+<ce:surname>Zhang</ce:surname>
+<ce:given-name>Dan</ce:given-name>
+</author>
+<author seq="2" type="auth" author-instance-id="2005484089-4405e3a1140eb15f850cfeec0d71b21f">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Fan R.</ce:indexed-name>
+<ce:surname>Fan</ce:surname>
+<ce:given-name>Rong</ce:given-name>
+</author>
+<author seq="3" type="auth" author-instance-id="2005484089-e5c553d0f6f6a0155a6cc7d5179b55e0">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Lei L.</ce:indexed-name>
+<ce:surname>Lei</ce:surname>
+<ce:given-name>Li</ce:given-name>
+</author>
+<author seq="4" type="auth" author-instance-id="2005484089-3e30c341b470bcd8044520e7b51ea609">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Lei L.</ce:indexed-name>
+<ce:surname>Lei</ce:surname>
+<ce:given-name>Lei</ce:given-name>
+</author>
+<author seq="5" type="auth" author-instance-id="2005484089-5b58d2fe63d851006c78f9fd1f907e19">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Wang Y.</ce:indexed-name>
+<ce:surname>Wang</ce:surname>
+<ce:given-name>Yanmeng</ce:given-name>
+</author>
+<author seq="6" type="auth" author-instance-id="2005484089-a2bbf801ad82cac0665566d1a167bef4">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Lv N.</ce:indexed-name>
+<ce:surname>Lv</ce:surname>
+<ce:given-name>Nan</ce:given-name>
+</author>
+<author seq="7" type="auth" author-instance-id="2005484089-1fdcde576798b99ee129b92580baa0c2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Chen P.</ce:indexed-name>
+<ce:surname>Chen</ce:surname>
+<ce:given-name>Ping</ce:given-name>
+</author>
+<author seq="8" type="auth" author-instance-id="2005484089-cb13f7b0c0f4428eed63aa6621061263">
+<ce:initials>R.A.</ce:initials>
+<ce:indexed-name>Williamson R.A.</ce:indexed-name>
+<ce:surname>Williamson</ce:surname>
+<ce:given-name>Ramone A.</ce:given-name>
+</author>
+<author orcid="0000-0003-0565-4567" seq="10" type="auth" author-instance-id="2005484089-e3bba5bd96d1c157bbbee64e673a6317">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Hu J.</ce:indexed-name>
+<ce:surname>Hu</ce:surname>
+<ce:given-name>Jinsong</ce:given-name>
+<ce:e-address>jinsong.hu@xjtu.edu.cn</ce:e-address>
+</author>
+<affiliation country="chn" affiliation-instance-id="2005484089-1add8969c10bd4f7e99d614ab3b30923">
+<organization>Department of Cell Biology and Genetics, Xi’an Jiaotong University Health Science Center</organization>
+<city>Xi’an</city>
+<ce:source-text>Department of Cell Biology and Genetics, Xi’an Jiaotong University Health Science Center, Xi’an, China</ce:source-text>
+</affiliation>
+</author-group>
+<author-group>
+<author seq="9" type="auth" author-instance-id="2005484089-29d81e09a623e014d188eaa1dcd377ba">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Wang B.</ce:indexed-name>
+<ce:surname>Wang</ce:surname>
+<ce:given-name>Baiyan</ce:given-name>
+</author>
+<affiliation country="chn" affiliation-instance-id="2005484089-93634dd6dbe61d96a3da05846f60fb97">
+<organization>Department of Clinical Hematology, Second Affiliated Hospital, Xi'an Jiaotong University Health Science Center</organization>
+<city>Xi'an</city>
+<ce:source-text>Department of Clinical Hematology, Second Affiliated Hospital, Xi'an Jiaotong University Health Science Center, Xi'an, China</ce:source-text>
+</affiliation>
+</author-group>
+<author-group>
+<author seq="10" type="auth" author-instance-id="2005484089-e3bba5bd96d1c157bbbee64e673a6317">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Hu J.</ce:indexed-name>
+<ce:surname>Hu</ce:surname>
+<ce:given-name>Jinsong</ce:given-name>
+<ce:e-address>jinsong.hu@xjtu.edu.cn</ce:e-address>
+</author>
+<affiliation country="chn" affiliation-instance-id="2005484089-603694ad7749ee7c70a08326a633d8b0">
+<organization>Key Laboratory of Environment and Genes Related to Diseases (Xi’an Jiaotong University), Ministry of Education</organization>
+<city>Xi'an</city>
+<ce:source-text>Key Laboratory of Environment and Genes Related to Diseases (Xi’an Jiaotong University), Ministry of Education, Xi'an, China</ce:source-text>
+</affiliation>
+</author-group>
+<correspondence>
+<person>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Hu J.</ce:indexed-name>
+<ce:surname>Hu</ce:surname>
+<ce:given-name>Jinsong</ce:given-name>
+</person>
+<affiliation country="chn">
+<organization>Department of Cell Biology and Genetics, Xi’an Jiaotong University Health Science Center</organization>
+<city>Xi’an</city>
+<ce:source-text>Department of Cell Biology and Genetics, Xi’an Jiaotong University Health Science Center, Xi’an, China</ce:source-text>
+</affiliation>
+<ce:e-address>jinsong.hu@xjtu.edu.cn</ce:e-address>
+</correspondence>
+<correspondence>
+<person>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Hu J.</ce:indexed-name>
+<ce:surname>Hu</ce:surname>
+<ce:given-name>Jinsong</ce:given-name>
+</person>
+<affiliation country="chn">
+<organization>Key Laboratory of Environment and Genes Related to Diseases (Xi’an Jiaotong University), Ministry of Education</organization>
+<city>Xi'an</city>
+<ce:source-text>Key Laboratory of Environment and Genes Related to Diseases (Xi’an Jiaotong University), Ministry of Education, Xi'an, China</ce:source-text>
+</affiliation>
+<ce:e-address>jinsong.hu@xjtu.edu.cn</ce:e-address>
+</correspondence>
+<grantlist complete="y">
+<grant>
+<grant-id>81372534</grant-id>
+<grant-acronym>NSFC;NNSF;NNSFC</grant-acronym>
+<grant-agency iso-code="chn">National Natural Science Foundation of China</grant-agency>
+<grant-agency-id>501100001809</grant-agency-id>
+</grant>
+<grant>
+<grant-id>81570192</grant-id>
+<grant-acronym>NSFC;NNSF;NNSFC</grant-acronym>
+<grant-agency iso-code="chn">National Natural Science Foundation of China</grant-agency>
+<grant-agency-id>501100001809</grant-agency-id>
+</grant>
+<grant-text>This research was supported by the National Natural Science Foundation of China [Grant numbers 81570192 and 81372534].</grant-text>
+</grantlist>
+<abstracts>
+<abstract original="y">
+<publishercopyright>© 2020 The Authors. Journal of Cellular and Molecular Medicine published by Foundation for Cellular and Molecular Medicine and John Wiley &amp; Sons Ltd.</publishercopyright>
+<ce:para>Mesenchymal stem cells (MSCs) are multipotent cells capable of differentiating into a variety of cell types. Bortezomib, the first approved proteasome inhibitor used for the treatment of multiple myeloma (MM), has been shown to induce osteoblast differentiation, making it beneficial for myeloma bone disease. In the present study, we aimed to investigate the effects and underlying mechanisms of bortezomib on the cell cycle during osteogenic differentiation. We confirmed that low doses of bortezomib can induce MSCs towards osteogenic differentiation, but high doses are toxic. In the course of bortezomib-induced osteogenic differentiation, we observed cell cycle exit characterized by G<inf>0</inf>/G<inf>1</inf> phase cell cycle arrest with a significant reduction in cell proliferation. Additionally, we found that the cell cycle exit was tightly related to the induction of the cyclin-dependent kinase inhibitors p21<sup>Cip1</sup> and p27<sup>Kip1</sup>. Notably, we further demonstrated that the up-regulation of p21<sup>Cip1</sup> and p27<sup>Kip1</sup> is transcriptionally dependent on the bortezomib-activated ER stress signalling branch Ire1α/Xbp1s. Taken together, these findings reveal an intracellular pathway that integrates proteasome inhibition, osteogenic differentiation and the cell cycle through activation of the ER stress signalling branch Ire1α/Xbp1s.</ce:para>
+</abstract>
+</abstracts>
+<source type="j" country="usa">
+<sourcetitle>Journal of Cellular and Molecular Medicine</sourcetitle>
+<sourcetitle-abbrev>J. Cell. Mol. Med.</sourcetitle-abbrev>
+<translated-sourcetitle xml:lang="eng">Journal of Cellular and Molecular Medicine</translated-sourcetitle>
+<issn type="print">15821838</issn>
+<volisspag>
+<voliss volume="24" issue="16"/>
+<pagerange first="9428" last="9438"/>
+</volisspag>
+<publicationyear first="2020"/>
+<publicationdate>
+<year>2020</year>
+<month>08</month>
+<day>01</day>
+</publicationdate>
+<website>
+<ce:e-address>http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1582-4934</ce:e-address>
+</website>
+<publisher>
+<publishername>Blackwell Publishing Inc.</publishername>
+<ce:e-address>subscrip@blackwellpub.com</ce:e-address>
+</publisher>
+</source>
+    <enhancement status="001" type="17">
+        <descriptorgroup>
+            <descriptors controlled="y" type="DRA">
+                <descriptor>
+                    <mainterm weight="a">X box binding protein 1</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">bortezomib</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">cyclin dependent kinase inhibitor 1</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">cyclin dependent kinase inhibitor 1B</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">endogenous compound</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">proteasome</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">protein IRE1</mainterm>
+                </descriptor>
+            </descriptors>
+            <descriptors controlled="y" type="MEA">
+                <descriptor>
+                    <mainterm weight="a">cell cycle arrest</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">mesenchymal stem cell</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">article</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell cycle G0 phase</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell cycle G1 phase</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell differentiation</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell proliferation</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">controlled study</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">drug megadose</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">endoplasmic reticulum stress</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">human cell</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">low drug dose</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">side effect</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">signal transduction</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">upregulation</mainterm>
+                </descriptor>
+            </descriptors>
+        </descriptorgroup>
+        <classificationgroup>
+            <classifications type="ASJC">
+                <classification>1500</classification>
+                <classification>1508</classification>
+            </classifications>
+            <classifications type="AUTARC-CONFIGURATION">
+                <classification>Core Chemistry</classification>
+            </classifications>
+            <classifications type="CONFIGURATION-VALUE">
+                <classification>0.144</classification>
+            </classifications>
+            <classifications type="REAXYS-PRIORITY">
+                <classification>REAXYSNC3</classification>
+            </classifications>
+            <classifications type="SATURATION">
+                <classification>1.746</classification>
+            </classifications>
+        </classificationgroup>
+    </enhancement>
+</head>
+<tail>
+<bibliography refcount="49">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Plasticity of adult stem cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0001</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.J.</ce:initials>
+<ce:indexed-name>Wagers A.J.</ce:indexed-name>
+<ce:surname>Wagers</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>I.L.</ce:initials>
+<ce:indexed-name>Weissman I.L.</ce:indexed-name>
+<ce:surname>Weissman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cell</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="116"/>
+<pagerange first="639" last="648"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Wagers AJ, Weissman IL. Plasticity of adult stem cells. Cell. 2004;116:639-648.</ref-fulltext>
+<ce:source-text>Wagers AJ, Weissman IL. Plasticity of adult stem cells. Cell. 2004;116:639-648.</ce:source-text>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Multi-organ, multi-lineage engraftment by a single bone marrow-derived stem cell</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0002</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.S.</ce:initials>
+<ce:indexed-name>Krause D.S.</ce:indexed-name>
+<ce:surname>Krause</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.D.</ce:initials>
+<ce:indexed-name>Theise N.D.</ce:indexed-name>
+<ce:surname>Theise</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.I.</ce:initials>
+<ce:indexed-name>Collector M.I.</ce:indexed-name>
+<ce:surname>Collector</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Cell</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="105"/>
+<pagerange first="369" last="377"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Krause DS, Theise ND, Collector MI, et al. Multi-organ, multi-lineage engraftment by a single bone marrow-derived stem cell. Cell. 2001;105:369-377.</ref-fulltext>
+<ce:source-text>Krause DS, Theise ND, Collector MI, et al. Multi-organ, multi-lineage engraftment by a single bone marrow-derived stem cell. Cell. 2001;105:369-377.</ce:source-text>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Therapeutic potential for mesenchymal stem cell transplantation in critical limb ischemia</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0003</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Liew A.</ce:indexed-name>
+<ce:surname>Liew</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>O'Brien T.</ce:indexed-name>
+<ce:surname>O'Brien</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Stem Cell Res Ther</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="3"/>
+<pagerange first="28"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Liew A, O'Brien T. Therapeutic potential for mesenchymal stem cell transplantation in critical limb ischemia. Stem Cell Res Ther. 2012;3:28.</ref-fulltext>
+<ce:source-text>Liew A, O'Brien T. Therapeutic potential for mesenchymal stem cell transplantation in critical limb ischemia. Stem Cell Res Ther. 2012;3:28.</ce:source-text>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Mechanisms of mesenchymal stem/stromal cell function</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0004</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.L.</ce:initials>
+<ce:indexed-name>Spees J.L.</ce:indexed-name>
+<ce:surname>Spees</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.H.</ce:initials>
+<ce:indexed-name>Lee R.H.</ce:indexed-name>
+<ce:surname>Lee</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.A.</ce:initials>
+<ce:indexed-name>Gregory C.A.</ce:indexed-name>
+<ce:surname>Gregory</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Stem Cell Res Ther</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pagerange first="125"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Spees JL, Lee RH, Gregory CA. Mechanisms of mesenchymal stem/stromal cell function. Stem Cell Res Ther. 2016;7:125.</ref-fulltext>
+<ce:source-text>Spees JL, Lee RH, Gregory CA. Mechanisms of mesenchymal stem/stromal cell function. Stem Cell Res Ther. 2016;7:125.</ce:source-text>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Reciprocal modulation of mesenchymal stem cells and tumor cells promotes lung cancer metastasis</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0005</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Fregni G.</ce:indexed-name>
+<ce:surname>Fregni</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Quinodoz M.</ce:indexed-name>
+<ce:surname>Quinodoz</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Moller E.</ce:indexed-name>
+<ce:surname>Moller</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>EBioMedicine</ref-sourcetitle>
+<ref-publicationyear first="2018"/>
+<ref-volisspag>
+<voliss volume="29"/>
+<pagerange first="128" last="145"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Fregni G, Quinodoz M, Moller E, et al. Reciprocal modulation of mesenchymal stem cells and tumor cells promotes lung cancer metastasis. EBioMedicine. 2018;29:128-145.</ref-fulltext>
+<ce:source-text>Fregni G, Quinodoz M, Moller E, et al. Reciprocal modulation of mesenchymal stem cells and tumor cells promotes lung cancer metastasis. EBioMedicine. 2018;29:128-145.</ce:source-text>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Mesenchymal stem cell-derived exosomes stimulate cycling quiescence and early breast cancer dormancy in bone marrow</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0006</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.A.</ce:initials>
+<ce:indexed-name>Bliss S.A.</ce:indexed-name>
+<ce:surname>Bliss</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Sinha G.</ce:indexed-name>
+<ce:surname>Sinha</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>O.A.</ce:initials>
+<ce:indexed-name>Sandiford O.A.</ce:indexed-name>
+<ce:surname>Sandiford</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Can Res</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="76"/>
+<pagerange first="5832" last="5844"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Bliss SA, Sinha G, Sandiford OA, et al. Mesenchymal stem cell-derived exosomes stimulate cycling quiescence and early breast cancer dormancy in bone marrow. Can Res. 2016;76:5832-5844.</ref-fulltext>
+<ce:source-text>Bliss SA, Sinha G, Sandiford OA, et al. Mesenchymal stem cell-derived exosomes stimulate cycling quiescence and early breast cancer dormancy in bone marrow. Can Res. 2016;76:5832-5844.</ce:source-text>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Blocking tumor-educated MSC paracrine activity halts osteosarcoma progression</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0007</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.R.</ce:initials>
+<ce:indexed-name>Baglio S.R.</ce:indexed-name>
+<ce:surname>Baglio</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Lagerweij T.</ce:indexed-name>
+<ce:surname>Lagerweij</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Perez-Lanzon M.</ce:indexed-name>
+<ce:surname>Perez-Lanzon</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Clinical Cancer Res</ref-sourcetitle>
+<ref-publicationyear first="2017"/>
+<ref-volisspag>
+<voliss volume="23"/>
+<pagerange first="3721" last="3733"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Baglio SR, Lagerweij T, Perez-Lanzon M, et al. Blocking tumor-educated MSC paracrine activity halts osteosarcoma progression. Clinical Cancer Res. 2017;23:3721-3733.</ref-fulltext>
+<ce:source-text>Baglio SR, Lagerweij T, Perez-Lanzon M, et al. Blocking tumor-educated MSC paracrine activity halts osteosarcoma progression. Clinical Cancer Res. 2017;23:3721-3733.</ce:source-text>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Mesenchymal stem cells induce resistance to chemotherapy through the release of platinum-induced fatty acids</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0008</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Roodhart J.M.</ce:indexed-name>
+<ce:surname>Roodhart</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.G.</ce:initials>
+<ce:indexed-name>Daenen L.G.</ce:indexed-name>
+<ce:surname>Daenen</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>E.C.</ce:initials>
+<ce:indexed-name>Stigter E.C.</ce:indexed-name>
+<ce:surname>Stigter</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Cancer Cell</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="20"/>
+<pagerange first="370" last="383"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Roodhart JM, Daenen LG, Stigter EC, et al. Mesenchymal stem cells induce resistance to chemotherapy through the release of platinum-induced fatty acids. Cancer Cell. 2011;20:370-383.</ref-fulltext>
+<ce:source-text>Roodhart JM, Daenen LG, Stigter EC, et al. Mesenchymal stem cells induce resistance to chemotherapy through the release of platinum-induced fatty acids. Cancer Cell. 2011;20:370-383.</ce:source-text>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Mesenchymal Stem Cells are Recruited and Activated into Carcinoma-Associated Fibroblasts by Prostate Cancer Microenvironment-Derived TGF-beta1</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0009</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Barcellos-de-Souza P.</ce:indexed-name>
+<ce:surname>Barcellos-de-Souza</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Comito G.</ce:indexed-name>
+<ce:surname>Comito</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Pons-Segura C.</ce:indexed-name>
+<ce:surname>Pons-Segura</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Stem cells (Dayton, Ohio)</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="34"/>
+<pagerange first="2536" last="2547"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Barcellos-de-Souza P, Comito G, Pons-Segura C, et al. Mesenchymal Stem Cells are Recruited and Activated into Carcinoma-Associated Fibroblasts by Prostate Cancer Microenvironment-Derived TGF-beta1. Stem cells (Dayton, Ohio). 2016;34:2536-2547.</ref-fulltext>
+<ce:source-text>Barcellos-de-Souza P, Comito G, Pons-Segura C, et al. Mesenchymal Stem Cells are Recruited and Activated into Carcinoma-Associated Fibroblasts by Prostate Cancer Microenvironment-Derived TGF-beta1. Stem cells (Dayton, Ohio). 2016;34:2536-2547.</ce:source-text>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>Bone marrow-derived mesenchymal stem cells induced by inflammatory cytokines produce angiogenetic factors and promote prostate cancer growth</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0010</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.Q.</ce:initials>
+<ce:indexed-name>Yang K.Q.</ce:indexed-name>
+<ce:surname>Yang</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Liu Y.</ce:indexed-name>
+<ce:surname>Liu</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>Q.H.</ce:initials>
+<ce:indexed-name>Huang Q.H.</ce:indexed-name>
+<ce:surname>Huang</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>BMC Cancer</ref-sourcetitle>
+<ref-publicationyear first="2017"/>
+<ref-volisspag>
+<voliss volume="17"/>
+<pagerange first="878"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Yang KQ, Liu Y, Huang QH, et al. Bone marrow-derived mesenchymal stem cells induced by inflammatory cytokines produce angiogenetic factors and promote prostate cancer growth. BMC Cancer. 2017;17:878.</ref-fulltext>
+<ce:source-text>Yang KQ, Liu Y, Huang QH, et al. Bone marrow-derived mesenchymal stem cells induced by inflammatory cytokines produce angiogenetic factors and promote prostate cancer growth. BMC Cancer. 2017;17:878.</ce:source-text>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Mesenchymal stem cells show functional defect and decreased anti-cancer effect after exposure to chemotherapeutic drugs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0011</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Somaiah C.</ce:indexed-name>
+<ce:surname>Somaiah</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kumar A.</ce:indexed-name>
+<ce:surname>Kumar</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Sharma R.</ce:indexed-name>
+<ce:surname>Sharma</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>J Biomed Sci</ref-sourcetitle>
+<ref-publicationyear first="2018"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="5"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Somaiah C, Kumar A, Sharma R, et al. Mesenchymal stem cells show functional defect and decreased anti-cancer effect after exposure to chemotherapeutic drugs. J Biomed Sci. 2018;25:5.</ref-fulltext>
+<ce:source-text>Somaiah C, Kumar A, Sharma R, et al. Mesenchymal stem cells show functional defect and decreased anti-cancer effect after exposure to chemotherapeutic drugs. J Biomed Sci. 2018;25:5.</ce:source-text>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Alkylating chemotherapeutic agents cyclophosphamide and melphalan cause functional injury to human bone marrow-derived mesenchymal stem cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0012</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Kemp K.</ce:indexed-name>
+<ce:surname>Kemp</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Morse R.</ce:indexed-name>
+<ce:surname>Morse</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Sanders K.</ce:indexed-name>
+<ce:surname>Sanders</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Hows J.</ce:indexed-name>
+<ce:surname>Hows</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Donaldson C.</ce:indexed-name>
+<ce:surname>Donaldson</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Ann Hematol</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="90"/>
+<pagerange first="777" last="789"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Kemp K, Morse R, Sanders K, Hows J, Donaldson C. Alkylating chemotherapeutic agents cyclophosphamide and melphalan cause functional injury to human bone marrow-derived mesenchymal stem cells. Ann Hematol. 2011;90:777-789.</ref-fulltext>
+<ce:source-text>Kemp K, Morse R, Sanders K, Hows J, Donaldson C. Alkylating chemotherapeutic agents cyclophosphamide and melphalan cause functional injury to human bone marrow-derived mesenchymal stem cells. Ann Hematol. 2011;90:777-789.</ce:source-text>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Bortezomib enhances the osteogenic differentiation capacity of human mesenchymal stromal cells derived from bone marrow and placental tissues</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0013</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Sanvoranart T.</ce:indexed-name>
+<ce:surname>Sanvoranart</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Supokawej A.</ce:indexed-name>
+<ce:surname>Supokawej</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Kheolamai P.</ce:indexed-name>
+<ce:surname>Kheolamai</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Biochem Biophys Res Commun</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-volisspag>
+<voliss volume="447"/>
+<pagerange first="580" last="585"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Sanvoranart T, Supokawej A, Kheolamai P, et al. Bortezomib enhances the osteogenic differentiation capacity of human mesenchymal stromal cells derived from bone marrow and placental tissues. Biochem Biophys Res Commun. 2014;447:580-585.</ref-fulltext>
+<ce:source-text>Sanvoranart T, Supokawej A, Kheolamai P, et al. Bortezomib enhances the osteogenic differentiation capacity of human mesenchymal stromal cells derived from bone marrow and placental tissues. Biochem Biophys Res Commun. 2014;447:580-585.</ce:source-text>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Mitochondrial reactive oxygen species regulate adipocyte differentiation of mesenchymal stem cells in hematopoietic stress induced by arabinosylcytosine</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0014</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Wang W.</ce:indexed-name>
+<ce:surname>Wang</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Zhang Y.</ce:indexed-name>
+<ce:surname>Zhang</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Lu W.</ce:indexed-name>
+<ce:surname>Lu</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Liu K.</ce:indexed-name>
+<ce:surname>Liu</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>PLoS One</ref-sourcetitle>
+<ref-publicationyear first="2015"/>
+<ref-volisspag>
+<voliss volume="10"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Wang W, Zhang Y, Lu W, Liu K. Mitochondrial reactive oxygen species regulate adipocyte differentiation of mesenchymal stem cells in hematopoietic stress induced by arabinosylcytosine. PLoS One. 2015;10:e0120629.</ref-fulltext>
+<ce:source-text>Wang W, Zhang Y, Lu W, Liu K. Mitochondrial reactive oxygen species regulate adipocyte differentiation of mesenchymal stem cells in hematopoietic stress induced by arabinosylcytosine. PLoS One. 2015;10:e0120629.</ce:source-text>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>Inhibiting the osteocyte-specific protein sclerostin increases bone mass and fracture resistance in multiple myeloma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0015</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.M.</ce:initials>
+<ce:indexed-name>McDonald M.M.</ce:indexed-name>
+<ce:surname>McDonald</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.R.</ce:initials>
+<ce:indexed-name>Reagan M.R.</ce:indexed-name>
+<ce:surname>Reagan</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.E.</ce:initials>
+<ce:indexed-name>Youlten S.E.</ce:indexed-name>
+<ce:surname>Youlten</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Blood</ref-sourcetitle>
+<ref-publicationyear first="2017"/>
+<ref-volisspag>
+<voliss volume="129"/>
+<pagerange first="3452" last="3464"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>McDonald MM, Reagan MR, Youlten SE, et al. Inhibiting the osteocyte-specific protein sclerostin increases bone mass and fracture resistance in multiple myeloma. Blood. 2017;129:3452-3464.</ref-fulltext>
+<ce:source-text>McDonald MM, Reagan MR, Youlten SE, et al. Inhibiting the osteocyte-specific protein sclerostin increases bone mass and fracture resistance in multiple myeloma. Blood. 2017;129:3452-3464.</ce:source-text>
+</reference>
+<reference id="16">
+<ref-info>
+<ref-title>
+<ref-titletext>Activation of ATF4 mediates unwanted Mcl-1 accumulation by proteasome inhibition</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0016</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Hu J.</ce:indexed-name>
+<ce:surname>Hu</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Dang N.</ce:indexed-name>
+<ce:surname>Dang</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Menu E.</ce:indexed-name>
+<ce:surname>Menu</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Blood</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="119"/>
+<pagerange first="826" last="837"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Hu J, Dang N, Menu E, et al. Activation of ATF4 mediates unwanted Mcl-1 accumulation by proteasome inhibition. Blood. 2012;119:826-837.</ref-fulltext>
+<ce:source-text>Hu J, Dang N, Menu E, et al. Activation of ATF4 mediates unwanted Mcl-1 accumulation by proteasome inhibition. Blood. 2012;119:826-837.</ce:source-text>
+</reference>
+<reference id="17">
+<ref-info>
+<ref-title>
+<ref-titletext>The proteasome inhibitor bortezomib affects osteoblast differentiation in vitro and in vivo in multiple myeloma patients</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0017</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Giuliani N.</ce:indexed-name>
+<ce:surname>Giuliani</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Morandi F.</ce:indexed-name>
+<ce:surname>Morandi</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Tagliaferri S.</ce:indexed-name>
+<ce:surname>Tagliaferri</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Blood</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="110"/>
+<pagerange first="334" last="338"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Giuliani N, Morandi F, Tagliaferri S, et al. The proteasome inhibitor bortezomib affects osteoblast differentiation in vitro and in vivo in multiple myeloma patients. Blood. 2007;110:334-338.</ref-fulltext>
+<ce:source-text>Giuliani N, Morandi F, Tagliaferri S, et al. The proteasome inhibitor bortezomib affects osteoblast differentiation in vitro and in vivo in multiple myeloma patients. Blood. 2007;110:334-338.</ce:source-text>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>Pharmacologic targeting of a stem/progenitor population in vivo is associated with enhanced bone regeneration in mice</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0018</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Mukherjee S.</ce:indexed-name>
+<ce:surname>Mukherjee</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Raje N.</ce:indexed-name>
+<ce:surname>Raje</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Schoonmaker J.A.</ce:indexed-name>
+<ce:surname>Schoonmaker</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>J Clin Investig</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss volume="118"/>
+<pagerange first="491" last="504"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mukherjee S, Raje N, Schoonmaker JA, et al. Pharmacologic targeting of a stem/progenitor population in vivo is associated with enhanced bone regeneration in mice. J Clin Investig. 2008;118:491-504.</ref-fulltext>
+<ce:source-text>Mukherjee S, Raje N, Schoonmaker JA, et al. Pharmacologic targeting of a stem/progenitor population in vivo is associated with enhanced bone regeneration in mice. J Clin Investig. 2008;118:491-504.</ce:source-text>
+</reference>
+<reference id="19">
+<ref-info>
+<ref-title>
+<ref-titletext>Cycling through developmental decisions: how cell cycle dynamics control pluripotency, differentiation and reprogramming</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0019</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Soufi A.</ce:indexed-name>
+<ce:surname>Soufi</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Dalton S.</ce:indexed-name>
+<ce:surname>Dalton</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Development (Cambridge, England)</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="143"/>
+<pagerange first="4301" last="4311"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Soufi A, Dalton S. Cycling through developmental decisions: how cell cycle dynamics control pluripotency, differentiation and reprogramming. Development (Cambridge, England). 2016;143:4301-4311.</ref-fulltext>
+<ce:source-text>Soufi A, Dalton S. Cycling through developmental decisions: how cell cycle dynamics control pluripotency, differentiation and reprogramming. Development (Cambridge, England). 2016;143:4301-4311.</ce:source-text>
+</reference>
+<reference id="20">
+<ref-info>
+<ref-title>
+<ref-titletext>Coordinating cell proliferation and differentiation: antagonism between cell cycle regulators and cell type-specific gene expression</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0020</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Ruijtenberg S.</ce:indexed-name>
+<ce:surname>Ruijtenberg</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>van den Heuvel S.</ce:indexed-name>
+<ce:surname>van den Heuvel</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cell Cycle (Georgetown, Tex)</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="15"/>
+<pagerange first="196" last="212"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ruijtenberg S, van den Heuvel S. Coordinating cell proliferation and differentiation: antagonism between cell cycle regulators and cell type-specific gene expression. Cell Cycle (Georgetown, Tex). 2016;15:196-212.</ref-fulltext>
+<ce:source-text>Ruijtenberg S, van den Heuvel S. Coordinating cell proliferation and differentiation: antagonism between cell cycle regulators and cell type-specific gene expression. Cell Cycle (Georgetown, Tex). 2016;15:196-212.</ce:source-text>
+</reference>
+<reference id="21">
+<ref-info>
+<ref-title>
+<ref-titletext>Linking the cell cycle to cell fate decisions</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0021</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Dalton S.</ce:indexed-name>
+<ce:surname>Dalton</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Trends Cell Biol</ref-sourcetitle>
+<ref-publicationyear first="2015"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="592" last="600"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Dalton S. Linking the cell cycle to cell fate decisions. Trends Cell Biol. 2015;25:592-600.</ref-fulltext>
+<ce:source-text>Dalton S. Linking the cell cycle to cell fate decisions. Trends Cell Biol. 2015;25:592-600.</ce:source-text>
+</reference>
+<reference id="22">
+<ref-info>
+<ref-title>
+<ref-titletext>G1/S inhibitors and the SWI/SNF complex control cell-cycle exit during muscle differentiation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0022</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Ruijtenberg S.</ce:indexed-name>
+<ce:surname>Ruijtenberg</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>van den Heuvel S.</ce:indexed-name>
+<ce:surname>van den Heuvel</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cell</ref-sourcetitle>
+<ref-publicationyear first="2015"/>
+<ref-volisspag>
+<voliss volume="162"/>
+<pagerange first="300" last="313"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ruijtenberg S, van den Heuvel S. G1/S inhibitors and the SWI/SNF complex control cell-cycle exit during muscle differentiation. Cell. 2015;162:300-313.</ref-fulltext>
+<ce:source-text>Ruijtenberg S, van den Heuvel S. G1/S inhibitors and the SWI/SNF complex control cell-cycle exit during muscle differentiation. Cell. 2015;162:300-313.</ce:source-text>
+</reference>
+<reference id="23">
+<ref-info>
+<ref-title>
+<ref-titletext>Cell cycle, differentiation and disease</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0023</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Musacchio A.</ce:indexed-name>
+<ce:surname>Musacchio</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Helin K.</ce:indexed-name>
+<ce:surname>Helin</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Curr Opin Cell Biol</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="673" last="675"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Musacchio A, Helin K. Cell cycle, differentiation and disease. Curr Opin Cell Biol. 2013;25:673-675.</ref-fulltext>
+<ce:source-text>Musacchio A, Helin K. Cell cycle, differentiation and disease. Curr Opin Cell Biol. 2013;25:673-675.</ce:source-text>
+</reference>
+<reference id="24">
+<ref-info>
+<ref-title>
+<ref-titletext>Molecular ties between the cell cycle and differentiation in embryonic stem cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0024</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.C.</ce:initials>
+<ce:indexed-name>Li V.C.</ce:indexed-name>
+<ce:surname>Li</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.W.</ce:initials>
+<ce:indexed-name>Kirschner M.W.</ce:indexed-name>
+<ce:surname>Kirschner</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc Natl Acad Sci USA</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-volisspag>
+<voliss volume="111"/>
+<pagerange first="9503" last="9508"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Li VC, Kirschner MW. Molecular ties between the cell cycle and differentiation in embryonic stem cells. Proc Natl Acad Sci USA. 2014;111:9503-9508.</ref-fulltext>
+<ce:source-text>Li VC, Kirschner MW. Molecular ties between the cell cycle and differentiation in embryonic stem cells. Proc Natl Acad Sci USA. 2014;111:9503-9508.</ce:source-text>
+</reference>
+<reference id="25">
+<ref-info>
+<ref-title>
+<ref-titletext>Cell cycle and differentiation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0025</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Jakoby M.</ce:indexed-name>
+<ce:surname>Jakoby</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Schnittger A.</ce:indexed-name>
+<ce:surname>Schnittger</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Curr Opin Plant Biol</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pagerange first="661" last="669"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Jakoby M, Schnittger A. Cell cycle and differentiation. Curr Opin Plant Biol. 2004;7:661-669.</ref-fulltext>
+<ce:source-text>Jakoby M, Schnittger A. Cell cycle and differentiation. Curr Opin Plant Biol. 2004;7:661-669.</ce:source-text>
+</reference>
+<reference id="26">
+<ref-info>
+<ref-title>
+<ref-titletext>Repression of the aryl hydrocarbon receptor is required to maintain mitotic progression and prevent loss of pluripotency of embryonic stem cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0026</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.I.</ce:initials>
+<ce:indexed-name>Ko C.I.</ce:indexed-name>
+<ce:surname>Ko</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Fan Y.</ce:indexed-name>
+<ce:surname>Fan</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>de Gannes M.</ce:indexed-name>
+<ce:surname>de Gannes</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>Q.</ce:initials>
+<ce:indexed-name>Wang Q.</ce:indexed-name>
+<ce:surname>Wang</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Xia Y.</ce:indexed-name>
+<ce:surname>Xia</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Puga A.</ce:indexed-name>
+<ce:surname>Puga</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Stem Cells (Dayton, Ohio)</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="34"/>
+<pagerange first="2825" last="2839"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ko CI, Fan Y, de Gannes M, Wang Q, Xia Y, Puga A. Repression of the aryl hydrocarbon receptor is required to maintain mitotic progression and prevent loss of pluripotency of embryonic stem cells. Stem Cells (Dayton, Ohio). 2016;34:2825-2839.</ref-fulltext>
+<ce:source-text>Ko CI, Fan Y, de Gannes M, Wang Q, Xia Y, Puga A. Repression of the aryl hydrocarbon receptor is required to maintain mitotic progression and prevent loss of pluripotency of embryonic stem cells. Stem Cells (Dayton, Ohio). 2016;34:2825-2839.</ce:source-text>
+</reference>
+<reference id="27">
+<ref-info>
+<ref-title>
+<ref-titletext>Characterisation of cell cycle arrest and terminal differentiation in a maximally proliferative human epithelial tissue: lessons from the human hair follicle matrix</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0027</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.S.</ce:initials>
+<ce:indexed-name>Purba T.S.</ce:indexed-name>
+<ce:surname>Purba</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Brunken L.</ce:indexed-name>
+<ce:surname>Brunken</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Peake M.</ce:indexed-name>
+<ce:surname>Peake</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Eur J Cell Biol</ref-sourcetitle>
+<ref-publicationyear first="2017"/>
+<ref-volisspag>
+<voliss volume="96"/>
+<pagerange first="632" last="641"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Purba TS, Brunken L, Peake M, et al. Characterisation of cell cycle arrest and terminal differentiation in a maximally proliferative human epithelial tissue: lessons from the human hair follicle matrix. Eur J Cell Biol. 2017;96:632-641.</ref-fulltext>
+<ce:source-text>Purba TS, Brunken L, Peake M, et al. Characterisation of cell cycle arrest and terminal differentiation in a maximally proliferative human epithelial tissue: lessons from the human hair follicle matrix. Eur J Cell Biol. 2017;96:632-641.</ce:source-text>
+</reference>
+<reference id="28">
+<ref-info>
+<ref-title>
+<ref-titletext>Coordination of myeloid differentiation with reduced cell cycle progression by PU.1 induction of microRNAs targeting cell cycle regulators and lipid anabolism</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0028</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.A.</ce:initials>
+<ce:indexed-name>Solomon L.A.</ce:indexed-name>
+<ce:surname>Solomon</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Podder S.</ce:indexed-name>
+<ce:surname>Podder</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>He J.</ce:indexed-name>
+<ce:surname>He</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Mol Cell Biol</ref-sourcetitle>
+<ref-publicationyear first="2017"/>
+<ref-volisspag>
+<voliss volume="37" issue="10"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Solomon LA, Podder S, He J, et al. Coordination of myeloid differentiation with reduced cell cycle progression by PU.1 induction of microRNAs targeting cell cycle regulators and lipid anabolism. Mol Cell Biol. 2017;37(10).</ref-fulltext>
+<ce:source-text>Solomon LA, Podder S, He J, et al. Coordination of myeloid differentiation with reduced cell cycle progression by PU.1 induction of microRNAs targeting cell cycle regulators and lipid anabolism. Mol Cell Biol. 2017;37(10).</ce:source-text>
+</reference>
+<reference id="29">
+<ref-info>
+<ref-title>
+<ref-titletext>The power of proteasome inhibition in multiple myeloma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0029</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.A.</ce:initials>
+<ce:indexed-name>Guerrero-Garcia T.A.</ce:indexed-name>
+<ce:surname>Guerrero-Garcia</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Gandolfi S.</ce:indexed-name>
+<ce:surname>Gandolfi</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.P.</ce:initials>
+<ce:indexed-name>Laubach J.P.</ce:indexed-name>
+<ce:surname>Laubach</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Expert review of proteomics</ref-sourcetitle>
+<ref-publicationyear first="2018"/>
+<ref-volisspag>
+<voliss volume="15"/>
+<pagerange first="1033" last="1052"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Guerrero-Garcia TA, Gandolfi S, Laubach JP, et al. The power of proteasome inhibition in multiple myeloma. Expert review of proteomics. 2018;15:1033-1052.</ref-fulltext>
+<ce:source-text>Guerrero-Garcia TA, Gandolfi S, Laubach JP, et al. The power of proteasome inhibition in multiple myeloma. Expert review of proteomics. 2018;15:1033-1052.</ce:source-text>
+</reference>
+<reference id="30">
+<ref-info>
+<ref-title>
+<ref-titletext>The effects of proteasome inhibitors on bone remodeling in multiple myeloma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0030</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Zangari M.</ce:indexed-name>
+<ce:surname>Zangari</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.J.</ce:initials>
+<ce:indexed-name>Suva L.J.</ce:indexed-name>
+<ce:surname>Suva</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bone</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="86"/>
+<pagerange first="131" last="138"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Zangari M, Suva LJ. The effects of proteasome inhibitors on bone remodeling in multiple myeloma. Bone. 2016;86:131-138.</ref-fulltext>
+<ce:source-text>Zangari M, Suva LJ. The effects of proteasome inhibitors on bone remodeling in multiple myeloma. Bone. 2016;86:131-138.</ce:source-text>
+</reference>
+<reference id="31">
+<ref-info>
+<ref-title>
+<ref-titletext>The proteasome inhibitor, bortezomib suppresses primary myeloma and stimulates bone formation in myelomatous and nonmyelomatous bones in vivo</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0031</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Pennisi A.</ce:indexed-name>
+<ce:surname>Pennisi</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>X.</ce:initials>
+<ce:indexed-name>Li X.</ce:indexed-name>
+<ce:surname>Li</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Ling W.</ce:indexed-name>
+<ce:surname>Ling</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Khan S.</ce:indexed-name>
+<ce:surname>Khan</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Zangari M.</ce:indexed-name>
+<ce:surname>Zangari</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Yaccoby S.</ce:indexed-name>
+<ce:surname>Yaccoby</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Am J Hematol</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="84"/>
+<pagerange first="6" last="14"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Pennisi A, Li X, Ling W, Khan S, Zangari M, Yaccoby S. The proteasome inhibitor, bortezomib suppresses primary myeloma and stimulates bone formation in myelomatous and nonmyelomatous bones in vivo. Am J Hematol. 2009;84:6-14.</ref-fulltext>
+<ce:source-text>Pennisi A, Li X, Ling W, Khan S, Zangari M, Yaccoby S. The proteasome inhibitor, bortezomib suppresses primary myeloma and stimulates bone formation in myelomatous and nonmyelomatous bones in vivo. Am J Hematol. 2009;84:6-14.</ce:source-text>
+</reference>
+<reference id="32">
+<ref-info>
+<ref-title>
+<ref-titletext>The proteasome inhibitor bortezomib maintains osteocyte viability in multiple myeloma patients by reducing both apoptosis and autophagy: a new function for proteasome inhibitors</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0032</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Toscani D.</ce:indexed-name>
+<ce:surname>Toscani</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Palumbo C.</ce:indexed-name>
+<ce:surname>Palumbo</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Dalla Palma B.</ce:indexed-name>
+<ce:surname>Dalla Palma</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>J Bone Mineral Res</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="31"/>
+<pagerange first="815" last="827"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Toscani D, Palumbo C, Dalla Palma B, et al. The proteasome inhibitor bortezomib maintains osteocyte viability in multiple myeloma patients by reducing both apoptosis and autophagy: a new function for proteasome inhibitors. J Bone Mineral Res. 2016;31:815-827.</ref-fulltext>
+<ce:source-text>Toscani D, Palumbo C, Dalla Palma B, et al. The proteasome inhibitor bortezomib maintains osteocyte viability in multiple myeloma patients by reducing both apoptosis and autophagy: a new function for proteasome inhibitors. J Bone Mineral Res. 2016;31:815-827.</ce:source-text>
+</reference>
+<reference id="33">
+<ref-info>
+<ref-title>
+<ref-titletext>Selective inhibitors of the osteoblast proteasome stimulate bone formation in vivo and in vitro</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0033</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.R.</ce:initials>
+<ce:indexed-name>Garrett I.R.</ce:indexed-name>
+<ce:surname>Garrett</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Chen D.</ce:indexed-name>
+<ce:surname>Chen</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Gutierrez G.</ce:indexed-name>
+<ce:surname>Gutierrez</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>J Clin Investig</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss volume="111"/>
+<pagerange first="1771" last="1782"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Garrett IR, Chen D, Gutierrez G, et al. Selective inhibitors of the osteoblast proteasome stimulate bone formation in vivo and in vitro. J Clin Investig. 2003;111:1771-1782.</ref-fulltext>
+<ce:source-text>Garrett IR, Chen D, Gutierrez G, et al. Selective inhibitors of the osteoblast proteasome stimulate bone formation in vivo and in vitro. J Clin Investig. 2003;111:1771-1782.</ce:source-text>
+</reference>
+<reference id="34">
+<ref-info>
+<ref-title>
+<ref-titletext>Response to bortezomib is associated to osteoblastic activation in patients with multiple myeloma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0034</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Zangari M.</ce:indexed-name>
+<ce:surname>Zangari</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Esseltine D.</ce:indexed-name>
+<ce:surname>Esseltine</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.K.</ce:initials>
+<ce:indexed-name>Lee C.K.</ce:indexed-name>
+<ce:surname>Lee</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Br J Haematol</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss volume="131"/>
+<pagerange first="71" last="73"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Zangari M, Esseltine D, Lee CK, et al. Response to bortezomib is associated to osteoblastic activation in patients with multiple myeloma. Br J Haematol. 2005;131:71-73.</ref-fulltext>
+<ce:source-text>Zangari M, Esseltine D, Lee CK, et al. Response to bortezomib is associated to osteoblastic activation in patients with multiple myeloma. Br J Haematol. 2005;131:71-73.</ce:source-text>
+</reference>
+<reference id="35">
+<ref-info>
+<ref-title>
+<ref-titletext>Bortezomib induces osteoblast differentiation via Wnt-independent activation of beta-catenin/TCF signaling</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0035</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>Y.W.</ce:initials>
+<ce:indexed-name>Qiang Y.W.</ce:indexed-name>
+<ce:surname>Qiang</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Hu B.</ce:indexed-name>
+<ce:surname>Hu</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Chen Y.</ce:indexed-name>
+<ce:surname>Chen</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Blood</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="113"/>
+<pagerange first="4319" last="4330"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Qiang YW, Hu B, Chen Y, et al. Bortezomib induces osteoblast differentiation via Wnt-independent activation of beta-catenin/TCF signaling. Blood. 2009;113:4319-4330.</ref-fulltext>
+<ce:source-text>Qiang YW, Hu B, Chen Y, et al. Bortezomib induces osteoblast differentiation via Wnt-independent activation of beta-catenin/TCF signaling. Blood. 2009;113:4319-4330.</ce:source-text>
+</reference>
+<reference id="36">
+<ref-info>
+<ref-title>
+<ref-titletext>CDK inhibitors: cell cycle regulators and beyond</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0036</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Besson A.</ce:indexed-name>
+<ce:surname>Besson</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.F.</ce:initials>
+<ce:indexed-name>Dowdy S.F.</ce:indexed-name>
+<ce:surname>Dowdy</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Roberts J.M.</ce:indexed-name>
+<ce:surname>Roberts</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Dev Cell</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss volume="14"/>
+<pagerange first="159" last="169"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Besson A, Dowdy SF, Roberts JM. CDK inhibitors: cell cycle regulators and beyond. Dev Cell. 2008;14:159-169.</ref-fulltext>
+<ce:source-text>Besson A, Dowdy SF, Roberts JM. CDK inhibitors: cell cycle regulators and beyond. Dev Cell. 2008;14:159-169.</ce:source-text>
+</reference>
+<reference id="37">
+<ref-info>
+<ref-title>
+<ref-titletext>Cell cycle, cytoskeleton dynamics and beyond: the many functions of cyclins and CDK inhibitors</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0037</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Bendris N.</ce:indexed-name>
+<ce:surname>Bendris</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Lemmers B.</ce:indexed-name>
+<ce:surname>Lemmers</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Blanchard J.M.</ce:indexed-name>
+<ce:surname>Blanchard</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cell cycle (Georgetown, Tex)</ref-sourcetitle>
+<ref-publicationyear first="2015"/>
+<ref-volisspag>
+<voliss volume="14"/>
+<pagerange first="1786" last="1798"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Bendris N, Lemmers B, Blanchard JM. Cell cycle, cytoskeleton dynamics and beyond: the many functions of cyclins and CDK inhibitors. Cell cycle (Georgetown, Tex). 2015;14:1786-1798.</ref-fulltext>
+<ce:source-text>Bendris N, Lemmers B, Blanchard JM. Cell cycle, cytoskeleton dynamics and beyond: the many functions of cyclins and CDK inhibitors. Cell cycle (Georgetown, Tex). 2015;14:1786-1798.</ce:source-text>
+</reference>
+<reference id="38">
+<ref-info>
+<ref-title>
+<ref-titletext>p27Kip1 and p21Cip1 collaborate in the regulation of transcription by recruiting cyclin-Cdk complexes on the promoters of target genes</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0038</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Orlando S.</ce:indexed-name>
+<ce:surname>Orlando</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Gallastegui E.</ce:indexed-name>
+<ce:surname>Gallastegui</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Besson A.</ce:indexed-name>
+<ce:surname>Besson</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Nucleic Acids Res</ref-sourcetitle>
+<ref-publicationyear first="2015"/>
+<ref-volisspag>
+<voliss volume="43"/>
+<pagerange first="6860" last="6873"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Orlando S, Gallastegui E, Besson A, et al. p27Kip1 and p21Cip1 collaborate in the regulation of transcription by recruiting cyclin-Cdk complexes on the promoters of target genes. Nucleic Acids Res. 2015;43:6860-6873.</ref-fulltext>
+<ce:source-text>Orlando S, Gallastegui E, Besson A, et al. p27Kip1 and p21Cip1 collaborate in the regulation of transcription by recruiting cyclin-Cdk complexes on the promoters of target genes. Nucleic Acids Res. 2015;43:6860-6873.</ce:source-text>
+</reference>
+<reference id="39">
+<ref-info>
+<ref-title>
+<ref-titletext>p21Cip1 and p27Kip1 induce distinct cell cycle effects and differentiation programs in myeloid leukemia cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0039</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.J.</ce:initials>
+<ce:indexed-name>Munoz-Alonso M.J.</ce:indexed-name>
+<ce:surname>Munoz-Alonso</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.C.</ce:initials>
+<ce:indexed-name>Acosta J.C.</ce:indexed-name>
+<ce:surname>Acosta</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Richard C.</ce:indexed-name>
+<ce:surname>Richard</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>M.D.</ce:initials>
+<ce:indexed-name>Delgado M.D.</ce:indexed-name>
+<ce:surname>Delgado</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Sedivy J.</ce:indexed-name>
+<ce:surname>Sedivy</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Leon J.</ce:indexed-name>
+<ce:surname>Leon</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>The Journal of biological chemistry</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss volume="280"/>
+<pagerange first="18120" last="18129"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Munoz-Alonso MJ, Acosta JC, Richard C, Delgado MD, Sedivy J, Leon J. p21Cip1 and p27Kip1 induce distinct cell cycle effects and differentiation programs in myeloid leukemia cells. The Journal of biological chemistry. 2005;280:18120-18129.</ref-fulltext>
+<ce:source-text>Munoz-Alonso MJ, Acosta JC, Richard C, Delgado MD, Sedivy J, Leon J. p21Cip1 and p27Kip1 induce distinct cell cycle effects and differentiation programs in myeloid leukemia cells. The Journal of biological chemistry. 2005;280:18120-18129.</ce:source-text>
+</reference>
+<reference id="40">
+<ref-info>
+<ref-title>
+<ref-titletext>Endoplasmic-reticulum stress pathway-associated mechanisms of action of proteasome inhibitors in multiple myeloma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0040</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ri M.</ce:indexed-name>
+<ce:surname>Ri</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Int J Hematol</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="104"/>
+<pagerange first="273" last="280"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ri M. Endoplasmic-reticulum stress pathway-associated mechanisms of action of proteasome inhibitors in multiple myeloma. Int J Hematol. 2016;104:273-280.</ref-fulltext>
+<ce:source-text>Ri M. Endoplasmic-reticulum stress pathway-associated mechanisms of action of proteasome inhibitors in multiple myeloma. Int J Hematol. 2016;104:273-280.</ce:source-text>
+</reference>
+<reference id="41">
+<ref-info>
+<ref-title>
+<ref-titletext>Mitochondrial thioredoxin reductase regulates major cytotoxicity pathways of proteasome inhibitors in multiple myeloma cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0041</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.E.</ce:initials>
+<ce:indexed-name>Fink E.E.</ce:indexed-name>
+<ce:surname>Fink</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Mannava S.</ce:indexed-name>
+<ce:surname>Mannava</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Bagati A.</ce:indexed-name>
+<ce:surname>Bagati</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Leukemia</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="30"/>
+<pagerange first="104" last="111"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Fink EE, Mannava S, Bagati A, et al. Mitochondrial thioredoxin reductase regulates major cytotoxicity pathways of proteasome inhibitors in multiple myeloma cells. Leukemia. 2016;30:104-111.</ref-fulltext>
+<ce:source-text>Fink EE, Mannava S, Bagati A, et al. Mitochondrial thioredoxin reductase regulates major cytotoxicity pathways of proteasome inhibitors in multiple myeloma cells. Leukemia. 2016;30:104-111.</ce:source-text>
+</reference>
+<reference id="42">
+<ref-info>
+<ref-title>
+<ref-titletext>Blockade of XBP1 splicing by inhibition of IRE1alpha is a promising therapeutic option in multiple myeloma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0042</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Mimura N.</ce:indexed-name>
+<ce:surname>Mimura</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Fulciniti M.</ce:indexed-name>
+<ce:surname>Fulciniti</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Gorgun G.</ce:indexed-name>
+<ce:surname>Gorgun</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Blood</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="119"/>
+<pagerange first="5772" last="5781"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mimura N, Fulciniti M, Gorgun G, et al. Blockade of XBP1 splicing by inhibition of IRE1alpha is a promising therapeutic option in multiple myeloma. Blood. 2012;119:5772-5781.</ref-fulltext>
+<ce:source-text>Mimura N, Fulciniti M, Gorgun G, et al. Blockade of XBP1 splicing by inhibition of IRE1alpha is a promising therapeutic option in multiple myeloma. Blood. 2012;119:5772-5781.</ce:source-text>
+</reference>
+<reference id="43">
+<ref-info>
+<ref-title>
+<ref-titletext>Proteasome inhibitors induce a terminal unfolded protein response in multiple myeloma cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0043</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.A.</ce:initials>
+<ce:indexed-name>Obeng E.A.</ce:indexed-name>
+<ce:surname>Obeng</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.M.</ce:initials>
+<ce:indexed-name>Carlson L.M.</ce:indexed-name>
+<ce:surname>Carlson</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.M.</ce:initials>
+<ce:indexed-name>Gutman D.M.</ce:indexed-name>
+<ce:surname>Gutman</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>W.J.</ce:initials>
+<ce:indexed-name>Harrington W.J.</ce:indexed-name>
+<ce:surname>Harrington</ce:surname>
+<ce:suffix>Jr.</ce:suffix>
+</author>
+<author seq="5">
+<ce:initials>K.P.</ce:initials>
+<ce:indexed-name>Lee K.P.</ce:indexed-name>
+<ce:surname>Lee</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>L.H.</ce:initials>
+<ce:indexed-name>Boise L.H.</ce:indexed-name>
+<ce:surname>Boise</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Blood</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="107"/>
+<pagerange first="4907" last="4916"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Obeng EA, Carlson LM, Gutman DM, Harrington WJ Jr, Lee KP, Boise LH. Proteasome inhibitors induce a terminal unfolded protein response in multiple myeloma cells. Blood. 2006;107:4907-4916.</ref-fulltext>
+<ce:source-text>Obeng EA, Carlson LM, Gutman DM, Harrington WJ Jr, Lee KP, Boise LH. Proteasome inhibitors induce a terminal unfolded protein response in multiple myeloma cells. Blood. 2006;107:4907-4916.</ce:source-text>
+</reference>
+<reference id="44">
+<ref-info>
+<ref-title>
+<ref-titletext>Endoplasmic reticulum stress signalling - from basic mechanisms to clinical applications</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0044</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Almanza A.</ce:indexed-name>
+<ce:surname>Almanza</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Carlesso A.</ce:indexed-name>
+<ce:surname>Carlesso</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Chintha C.</ce:indexed-name>
+<ce:surname>Chintha</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>FEBS J</ref-sourcetitle>
+<ref-publicationyear first="2019"/>
+<ref-volisspag>
+<voliss volume="286"/>
+<pagerange first="241" last="278"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Almanza A, Carlesso A, Chintha C, et al. Endoplasmic reticulum stress signalling - from basic mechanisms to clinical applications. FEBS J. 2019;286:241-278.</ref-fulltext>
+<ce:source-text>Almanza A, Carlesso A, Chintha C, et al. Endoplasmic reticulum stress signalling - from basic mechanisms to clinical applications. FEBS J. 2019;286:241-278.</ce:source-text>
+</reference>
+<reference id="45">
+<ref-info>
+<ref-title>
+<ref-titletext>IRE1alpha-XBP1 signaling pathway, a potential therapeutic target in multiple myeloma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0045</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Chen L.</ce:indexed-name>
+<ce:surname>Chen</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Q.</ce:initials>
+<ce:indexed-name>Li Q.</ce:indexed-name>
+<ce:surname>Li</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>She T.</ce:indexed-name>
+<ce:surname>She</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Leuk Res</ref-sourcetitle>
+<ref-publicationyear first="2016"/>
+<ref-volisspag>
+<voliss volume="49"/>
+<pagerange first="7" last="12"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Chen L, Li Q, She T, et al. IRE1alpha-XBP1 signaling pathway, a potential therapeutic target in multiple myeloma. Leuk Res. 2016;49:7-12.</ref-fulltext>
+<ce:source-text>Chen L, Li Q, She T, et al. IRE1alpha-XBP1 signaling pathway, a potential therapeutic target in multiple myeloma. Leuk Res. 2016;49:7-12.</ce:source-text>
+</reference>
+<reference id="46">
+<ref-info>
+<ref-title>
+<ref-titletext>Identification of XBP1-u as a novel regulator of the MDM2/p53 axis using an shRNA library</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0046</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Huang C.</ce:indexed-name>
+<ce:surname>Huang</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Wu S.</ce:indexed-name>
+<ce:surname>Wu</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Ji H.</ce:indexed-name>
+<ce:surname>Ji</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Sci Adv</ref-sourcetitle>
+<ref-publicationyear first="2017"/>
+<ref-volisspag>
+<voliss volume="3"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Huang C, Wu S, Ji H, et al. Identification of XBP1-u as a novel regulator of the MDM2/p53 axis using an shRNA library. Sci Adv. 2017;3:e1701383.</ref-fulltext>
+<ce:source-text>Huang C, Wu S, Ji H, et al. Identification of XBP1-u as a novel regulator of the MDM2/p53 axis using an shRNA library. Sci Adv. 2017;3:e1701383.</ce:source-text>
+</reference>
+<reference id="47">
+<ref-info>
+<ref-title>
+<ref-titletext>The IRE1alpha-XBP1 pathway is essential for osteoblast differentiation through promoting transcription of Osterix</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0047</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Tohmonda T.</ce:indexed-name>
+<ce:surname>Tohmonda</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Miyauchi Y.</ce:indexed-name>
+<ce:surname>Miyauchi</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Ghosh R.</ce:indexed-name>
+<ce:surname>Ghosh</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>EMBO Rep</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="12"/>
+<pagerange first="451" last="457"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Tohmonda T, Miyauchi Y, Ghosh R, et al. The IRE1alpha-XBP1 pathway is essential for osteoblast differentiation through promoting transcription of Osterix. EMBO Rep. 2011;12:451-457.</ref-fulltext>
+<ce:source-text>Tohmonda T, Miyauchi Y, Ghosh R, et al. The IRE1alpha-XBP1 pathway is essential for osteoblast differentiation through promoting transcription of Osterix. EMBO Rep. 2011;12:451-457.</ce:source-text>
+</reference>
+<reference id="48">
+<ref-info>
+<ref-title>
+<ref-titletext>Cdks, cyclins and CKIs: roles beyond cell cycle regulation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0048</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Lim S.</ce:indexed-name>
+<ce:surname>Lim</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Kaldis P.</ce:indexed-name>
+<ce:surname>Kaldis</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Development (Cambridge, England)</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss volume="140"/>
+<pagerange first="3079" last="3093"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Lim S, Kaldis P. Cdks, cyclins and CKIs: roles beyond cell cycle regulation. Development (Cambridge, England). 2013;140:3079-3093.</ref-fulltext>
+<ce:source-text>Lim S, Kaldis P. Cdks, cyclins and CKIs: roles beyond cell cycle regulation. Development (Cambridge, England). 2013;140:3079-3093.</ce:source-text>
+</reference>
+<reference id="49">
+<ref-info>
+<ref-title>
+<ref-titletext>Cell cycle exit during terminal erythroid differentiation is associated with accumulation of p27(Kip1) and inactivation of cdk2 kinase</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="FRAGMENTID">jcmm15605-cit-0049</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.F.</ce:initials>
+<ce:indexed-name>Hsieh F.F.</ce:indexed-name>
+<ce:surname>Hsieh</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.A.</ce:initials>
+<ce:indexed-name>Barnett L.A.</ce:indexed-name>
+<ce:surname>Barnett</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>W.F.</ce:initials>
+<ce:indexed-name>Green W.F.</ce:indexed-name>
+<ce:surname>Green</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Blood</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="96"/>
+<pagerange first="2746" last="2754"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Hsieh FF, Barnett LA, Green WF, et al. Cell cycle exit during terminal erythroid differentiation is associated with accumulation of p27(Kip1) and inactivation of cdk2 kinase. Blood. 2000;96:2746-2754.</ref-fulltext>
+<ce:source-text>Hsieh FF, Barnett LA, Green WF, et al. Cell cycle exit during terminal erythroid differentiation is associated with accumulation of p27(Kip1) and inactivation of cdk2 kinase. Blood. 2000;96:2746-2754.</ce:source-text>
+</reference>
+</bibliography>
+</tail>
+</bibrecord>
+</item>
+</bibdataset>

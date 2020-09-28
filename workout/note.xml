@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enhancement status="001" type="17">
+        <descriptorgroup>
+            <descriptors controlled="y" type="DRA">
+                <descriptor>
+                    <mainterm weight="a">X box binding protein 1</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">bortezomib</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">cyclin dependent kinase inhibitor 1</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">cyclin dependent kinase inhibitor 1B</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">endogenous compound</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">proteasome</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">protein IRE1</mainterm>
+                </descriptor>
+            </descriptors>
+            <descriptors controlled="y" type="MEA">
+                <descriptor>
+                    <mainterm weight="a">cell cycle arrest</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="a">mesenchymal stem cell</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">article</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell cycle G0 phase</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell cycle G1 phase</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell differentiation</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">cell proliferation</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">controlled study</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">drug megadose</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">endoplasmic reticulum stress</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">human cell</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">low drug dose</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">side effect</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">signal transduction</mainterm>
+                </descriptor>
+                <descriptor>
+                    <mainterm weight="b">upregulation</mainterm>
+                </descriptor>
+            </descriptors>
+        </descriptorgroup>
+        <classificationgroup>
+            <classifications type="ASJC">
+                <classification>1500</classification>
+                <classification>1508</classification>
+            </classifications>
+            <classifications type="AUTARC-CONFIGURATION">
+                <classification>Core Chemistry</classification>
+            </classifications>
+            <classifications type="CONFIGURATION-VALUE">
+                <classification>0.144</classification>
+            </classifications>
+            <classifications type="REAXYS-PRIORITY">
+                <classification>REAXYSNC3</classification>
+            </classifications>
+            <classifications type="SATURATION">
+                <classification>1.746</classification>
+            </classifications>
+        </classificationgroup>
+    </enhancement>

@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DocAnalytics>
+	<Metadata>
+		<XML_Analytics_Processor>
+			<Version>XAP--0.2--Cermine-2018.01Model-2019.03Mapper-10000</Version>
+		</XML_Analytics_Processor>
+	</Metadata>
+	<DocAnalyticsSections>
+		<DocAnalyticsSection name="ML-SVMClassifier">
+			<Mainterm name="human" weight="0.99998734212" />
+			<Mainterm name="female" weight="0.984237852837" />
+			<Mainterm name="questionnaire" weight="0.892118560897" />
+			<Mainterm name="adult" weight="0.840893357339" />
+			<Mainterm name="cross-sectional study" weight="0.80829708118" />
+			<Mainterm name="priority journal" weight="0.731640888554" />
+			<Mainterm name="major clinical study" weight="0.727852988322" />
+			<Mainterm name="patient satisfaction" weight="0.656613267393" />
+			<Mainterm name="quality of life" weight="0.463669219044" />
+			<Mainterm name="male" weight="0.358034797395" />
+			<Mainterm name="aged" weight="0.311587394954" />
+			<Mainterm name="malocclusion" weight="0.301724608683" />
+			<Mainterm name="middle aged" weight="0.294961916814" />
+			<Mainterm name="child" weight="0.272374270327" />
+			<Mainterm name="prevalence" weight="0.245493621135" />
+			<Mainterm name="computer aided design" weight="0.225156636221" />
+			<Mainterm name="patellofemoral joint" weight="0.19073474312" />
+			<Mainterm name="scoring system" weight="0.186923663749" />
+			<Mainterm name="systematic review" weight="0.174505229841" />
+			<Mainterm name="cerebrovascular accident" weight="0.135354120171" />
+			<Mainterm name="mouth squamous cell carcinoma" weight="0.131983159004" />
+			<Mainterm name="patient compliance" weight="0.12948419972" />
+			<Mainterm name="thematic analysis" weight="0.118792970875" />
+			<Mainterm name="follow up" weight="0.115264540509" />
+			<Mainterm name="tooth extraction" weight="0.10631381793" />
+			<Mainterm name="tooth brushing" weight="0.0990078166443" />
+			<Mainterm name="controlled study" weight="0.0951945567262" />
+			<Mainterm name="urticaria" weight="0.0945644918917" />
+			<Mainterm name="medication compliance" weight="0.0919275401647" />
+			<Mainterm name="breast cancer" weight="0.0888318589127" />
+			<Mainterm name="perception" weight="0.0860773534785" />
+			<Mainterm name="gingivitis" weight="0.0785136158787" />
+			<Mainterm name="public health" weight="0.0764623781036" />
+			<Mainterm name="docosahexaenoic acid" weight="0.0725705409685" />
+			<Mainterm name="prosthesis" weight="0.0699239397095" />
+			<Mainterm name="preschool child" weight="0.0655524912935" />
+			<Mainterm name="posttraumatic stress disorder" weight="0.0644185399923" />
+			<Mainterm name="clinical trial" weight="0.0637239906865" />
+			<Mainterm name="meta analysis" weight="0.0631675616906" />
+			<Mainterm name="clinical article" weight="0.0629198141983" />
+			<Mainterm name="comparative study" weight="0.0627092686709" />
+			<Mainterm name="retrospective study" weight="0.0617060201969" />
+			<Mainterm name="young adult" weight="0.061311826678" />
+			<Mainterm name="cardiovascular risk" weight="0.0605609046469" />
+			<Mainterm name="school child" weight="0.0605013668421" />
+			<Mainterm name="pain" weight="0.060492287969" />
+			<Mainterm name="transcription factor NANOG" weight="0.0600147784651" />
+			<Mainterm name="infant" weight="0.0596986867242" />
+			<Mainterm name="outcome assessment" weight="0.0596165642854" />
+			<Mainterm name="task performance" weight="0.0589005806554" />
+			<Mainterm name="DAS28" weight="0.0571158508865" />
+			<Mainterm name="xerostomia" weight="0.0566110609039" />
+			<Mainterm name="osteolysis" weight="0.0534208398646" />
+			<Mainterm name="adolescent" weight="0.0531167731407" />
+			<Mainterm name="morbidity" weight="0.0511039240326" />
+			<Mainterm name="very elderly" weight="0.049282078949" />
+			<Mainterm name="correlation analysis" weight="0.0481698467189" />
+			<Mainterm name="age" weight="0.0480875982598" />
+			<Mainterm name="coronary artery bypass graft" weight="0.0472792951999" />
+			<Mainterm name="attitude to health" weight="0.0452735498803" />
+			<Mainterm name="heart disease" weight="0.0442715419246" />
+			<Mainterm name="daily life activity" weight="0.0434489758686" />
+			<Mainterm name="scientific literature" weight="0.0423426929178" />
+			<Mainterm name="warfarin" weight="0.0418316875521" />
+			<Mainterm name="mouth cavity" weight="0.0412569886123" />
+			<Mainterm name="clinical outcome" weight="0.0408804177075" />
+			<Mainterm name="x-ray computed tomography" weight="0.0408281652381" />
+			<Mainterm name="gingiva bleeding" weight="0.0397248528316" />
+			<Mainterm name="fatigue" weight="0.0390328979126" />
+			<Mainterm name="treatment response" weight="0.0388563006457" />
+			<Mainterm name="cancer surgery" weight="0.03877473395" />
+			<Mainterm name="treatment outcome" weight="0.0383111382502" />
+			<Mainterm name="antibiotic agent" weight="0.0365945932334" />
+			<Mainterm name="quality control" weight="0.0365475477463" />
+			<Mainterm name="hydroxymethylglutaryl coenzyme A reductase inhibitor" weight="0.0363904533459" />
+			<Mainterm name="human tissue" weight="0.0356983566816" />
+			<Mainterm name="emotion" weight="0.0356647000048" />
+			<Mainterm name="lower limb" weight="0.0356253199524" />
+			<Mainterm name="smoking" weight="0.035617052415" />
+			<Mainterm name="dipeptidyl carboxypeptidase inhibitor" weight="0.035268428943" />
+			<Mainterm name="gender" weight="0.0339279087294" />
+			<Mainterm name="body mass" weight="0.0329702541202" />
+			<Mainterm name="clinical evaluation" weight="0.0318827671584" />
+			<Mainterm name="dabigatran" weight="0.0314033203015" />
+			<Mainterm name="medical education" weight="0.0309314666366" />
+			<Mainterm name="cardiovascular disease" weight="0.0307076564981" />
+			<Mainterm name="mortality" weight="0.0305705039048" />
+			<Mainterm name="computed tomographic angiography" weight="0.0302552618001" />
+			<Mainterm name="health care personnel" weight="0.0300233675149" />
+			<Mainterm name="computer assisted tomography" weight="0.0298293882937" />
+			<Mainterm name="disease duration" weight="0.0295363295237" />
+			<Mainterm name="ascorbic acid" weight="0.0283579130597" />
+			<Mainterm name="radiography" weight="0.0280000859062" />
+			<Mainterm name="hemodialysis" weight="0.0278875724465" />
+			<Mainterm name="periodontal disease" weight="0.0278509207113" />
+			<Mainterm name="echocardiography" weight="0.027747836027" />
+			<Mainterm name="periodontitis" weight="0.0276948348127" />
+			<Mainterm name="disease association" weight="0.027596007909" />
+			<Mainterm name="dentistry" weight="0.0275840216108" />
+			<Mainterm name="Rac1 protein" weight="0.0275120264458" />
+		</DocAnalyticsSection>
+		<DocAnalyticsSection name="ML-LabelProximity">
+			<Mainterm name="questionnaire" weight="0.44444209337234497" />
+			<Mainterm name="mouth hygiene" weight="0.4400746822357178" />
+			<Mainterm name="qualitative research" weight="0.43981003761291504" />
+			<Mainterm name="health care quality" weight="0.43606871366500854" />
+			<Mainterm name="orthodontics" weight="0.4334983825683594" />
+			<Mainterm name="middle aged" weight="0.4223429560661316" />
+			<Mainterm name="health service" weight="0.4199671745300293" />
+			<Mainterm name="tooth disease" weight="0.41589099168777466" />
+			<Mainterm name="Short Form 36" weight="0.4128499925136566" />
+			<Mainterm name="retrospective study" weight="0.4006052017211914" />
+			<Mainterm name="self care" weight="0.40001925826072693" />
+			<Mainterm name="adult" weight="0.39739710092544556" />
+			<Mainterm name="pain assessment" weight="0.39213475584983826" />
+			<Mainterm name="prospective study" weight="0.3858467638492584" />
+			<Mainterm name="patient care" weight="0.3858042061328888" />
+			<Mainterm name="structured questionnaire" weight="0.3852531909942627" />
+			<Mainterm name="postoperative pain" weight="0.3839457631111145" />
+			<Mainterm name="treatment outcome" weight="0.38312259316444397" />
+			<Mainterm name="educational status" weight="0.38301679491996765" />
+			<Mainterm name="dental caries" weight="0.38225358724594116" />
+			<Mainterm name="health care policy" weight="0.38092923164367676" />
+			<Mainterm name="clinical article" weight="0.3803257644176483" />
+			<Mainterm name="follow up" weight="0.3762127161026001" />
+			<Mainterm name="hip arthroplasty" weight="0.37447696924209595" />
+			<Mainterm name="female" weight="0.37169188261032104" />
+			<Mainterm name="major clinical study" weight="0.37141183018684387" />
+			<Mainterm name="observational study" weight="0.3701379895210266" />
+			<Mainterm name="attitude to health" weight="0.3689129948616028" />
+			<Mainterm name="randomized controlled trial" weight="0.36591583490371704" />
+			<Mainterm name="total hip prosthesis" weight="0.36483362317085266" />
+			<Mainterm name="cognitive therapy" weight="0.36455562710762024" />
+			<Mainterm name="pain" weight="0.3642488121986389" />
+			<Mainterm name="self report" weight="0.363607257604599" />
+			<Mainterm name="perception" weight="0.3621823489665985" />
+			<Mainterm name="visual analog scale" weight="0.3611324429512024" />
+			<Mainterm name="New Zealand" weight="0.36006587743759155" />
+			<Mainterm name="quality of life" weight="0.3600543141365051" />
+			<Mainterm name="health care cost" weight="0.3589186370372772" />
+			<Mainterm name="distress syndrome" weight="0.3584824800491333" />
+			<Mainterm name="disease duration" weight="0.3570106029510498" />
+			<Mainterm name="social psychology" weight="0.35699963569641113" />
+			<Mainterm name="outcome assessment" weight="0.3568960428237915" />
+			<Mainterm name="social support" weight="0.35573795437812805" />
+			<Mainterm name="body posture" weight="0.35545581579208374" />
+			<Mainterm name="phacoemulsification" weight="0.35430970788002014" />
+			<Mainterm name="assessment of humans" weight="0.35379114747047424" />
+			<Mainterm name="pain intensity" weight="0.3520251512527466" />
+			<Mainterm name="social behavior" weight="0.35165125131607056" />
+			<Mainterm name="pilot study" weight="0.35008513927459717" />
+			<Mainterm name="health care facility" weight="0.3496168851852417" />
+			<Mainterm name="Beck Depression Inventory" weight="0.34930115938186646" />
+			<Mainterm name="Saudi Arabia" weight="0.34803342819213867" />
+			<Mainterm name="medical record" weight="0.3433963656425476" />
+			<Mainterm name="swelling" weight="0.3432929515838623" />
+			<Mainterm name="quality of life assessment" weight="0.34287238121032715" />
+			<Mainterm name="health care utilization" weight="0.341673880815506" />
+			<Mainterm name="sexual behavior" weight="0.34134677052497864" />
+			<Mainterm name="comparative study" weight="0.3397178053855896" />
+			<Mainterm name="conceptual framework" weight="0.33930647373199463" />
+			<Mainterm name="social status" weight="0.338015615940094" />
+			<Mainterm name="health insurance" weight="0.33415621519088745" />
+			<Mainterm name="highly active antiretroviral therapy" weight="0.33405399322509766" />
+			<Mainterm name="health survey" weight="0.3333832025527954" />
+			<Mainterm name="South Africa" weight="0.3324580192565918" />
+			<Mainterm name="aged" weight="0.33167579770088196" />
+			<Mainterm name="coronary artery bypass graft" weight="0.3308003544807434" />
+			<Mainterm name="psychometry" weight="0.3307386338710785" />
+			<Mainterm name="mental health" weight="0.32872655987739563" />
+			<Mainterm name="test retest reliability" weight="0.32681792974472046" />
+			<Mainterm name="health behavior" weight="0.32650643587112427" />
+			<Mainterm name="primary health care" weight="0.3248787224292755" />
+			<Mainterm name="young adult" weight="0.3229790925979614" />
+			<Mainterm name="primary medical care" weight="0.3224189281463623" />
+			<Mainterm name="double blind procedure" weight="0.32235074043273926" />
+			<Mainterm name="male" weight="0.322088360786438" />
+			<Mainterm name="tremor" weight="0.3219532370567322" />
+			<Mainterm name="descriptive research" weight="0.3218650817871094" />
+			<Mainterm name="marriage" weight="0.3216869831085205" />
+			<Mainterm name="rheumatoid arthritis" weight="0.31985992193222046" />
+			<Mainterm name="counseling" weight="0.3196980059146881" />
+			<Mainterm name="health program" weight="0.3196297585964203" />
+			<Mainterm name="financial management" weight="0.3182592988014221" />
+			<Mainterm name="slit lamp" weight="0.3181978166103363" />
+			<Mainterm name="process optimization" weight="0.31757652759552" />
+			<Mainterm name="peroperative complication" weight="0.31717485189437866" />
+			<Mainterm name="daily life activity" weight="0.31479454040527344" />
+			<Mainterm name="rating scale" weight="0.3145240545272827" />
+			<Mainterm name="emotion" weight="0.31448954343795776" />
+			<Mainterm name="cost benefit analysis" weight="0.31418076157569885" />
+			<Mainterm name="adolescent" weight="0.3133624792098999" />
+			<Mainterm name="Likert scale" weight="0.31333214044570923" />
+			<Mainterm name="knowledge" weight="0.31244540214538574" />
+			<Mainterm name="hemoglobin A1c" weight="0.3123077154159546" />
+			<Mainterm name="income" weight="0.3121899366378784" />
+			<Mainterm name="clinical trial" weight="0.3120914697647095" />
+			<Mainterm name="health care management" weight="0.31182628870010376" />
+			<Mainterm name="Human immunodeficiency virus infected patient" weight="0.31169113516807556" />
+			<Mainterm name="electrocardiography" weight="0.30926942825317383" />
+			<Mainterm name="periodontal disease" weight="0.3091787099838257" />
+			<Mainterm name="postoperative complication" weight="0.3090275824069977" />
+		</DocAnalyticsSection>
+		<DocAnalyticsSection name="Matching-Mainterm">
+			<Mainterm matchCount="1" name="age" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="aptitude" section="Abstract" synonym="ability" />
+			<Mainterm matchCount="1" name="denture" section="Abstract" synonym="dentures" />
+			<Mainterm matchCount="1" name="diseases" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="fixed partial denture" section="Abstract" synonym="fixed partial dentures" />
+			<Mainterm matchCount="1" name="health" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="information center" section="Abstract" synonym="archives" />
+			<Mainterm matchCount="1" name="life" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="maxilla" section="Abstract" synonym="maxillary" />
+			<Mainterm matchCount="1" name="occlusion" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="partial denture" section="Abstract" synonym="partial dentures" />
+			<Mainterm matchCount="4" name="patient" section="Abstract" synonym="patients" />
+			<Mainterm matchCount="3" name="prosthesis" section="Abstract" synonym="prostheses" />
+			<Mainterm matchCount="1" name="quality of life" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="questionnaire" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="sample" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="satisfaction" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="Saudi" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="Saudi Arabia" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="self concept" section="Abstract" synonym="self" />
+			<Mainterm matchCount="1" name="structured questionnaire" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="study" section="Abstract" synonym="" />
+			<Mainterm matchCount="1" name="tooth" section="Abstract" synonym="teeth" />
+			<Mainterm matchCount="1" name="tooth crown" section="Abstract" synonym="crowns" />
+			<Mainterm matchCount="2" name="tooth prosthesis" section="Abstract" synonym="dental prostheses" />
+			<Mainterm matchCount="1" name="accuracy" section="Para" synonym="precision" />
+			<Mainterm matchCount="1" name="affect" section="Para" synonym="" />
+			<Mainterm matchCount="4" name="age" section="Para" synonym="" />
+			<Mainterm matchCount="2" name="aptitude" section="Para" synonym="ability" />
+			<Mainterm matchCount="1" name="arthropathy" section="Para" synonym="joint disorder" />
+			<Mainterm matchCount="1" name="average" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="comfort" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="conflict of interest" section="Para" synonym="conflicts of interest" />
+			<Mainterm matchCount="1" name="cost" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="cross-sectional study" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="data analysis software" section="Para" synonym="SPSS" />
+			<Mainterm matchCount="1" name="diseases" section="Para" synonym="disease" />
+			<Mainterm matchCount="1" name="diseases" section="Para" synonym="disorder" />
+			<Mainterm matchCount="1" name="esthetics" section="Para" synonym="" />
+			<Mainterm matchCount="4" name="health" section="Para" synonym="" />
+			<Mainterm matchCount="2" name="health" section="Para" synonym="oral health" />
+			<Mainterm matchCount="1" name="information" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="information center" section="Para" synonym="archives" />
+			<Mainterm matchCount="1" name="joint" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="life" section="Para" synonym="" />
+			<Mainterm matchCount="2" name="male" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="mastication" section="Para" synonym="chewing" />
+			<Mainterm matchCount="2" name="occlusion" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="outpatient" section="Para" synonym="out-patient" />
+			<Mainterm matchCount="1" name="pain" section="Para" synonym="" />
+			<Mainterm matchCount="3" name="patient" section="Para" synonym="" />
+			<Mainterm matchCount="11" name="patient" section="Para" synonym="patients" />
+			<Mainterm matchCount="1" name="patient satisfaction" section="Para" synonym="" />
+			<Mainterm matchCount="2" name="population" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="productivity" section="Para" synonym="efficiency" />
+			<Mainterm matchCount="2" name="prosthesis" section="Para" synonym="" />
+			<Mainterm matchCount="6" name="prosthesis" section="Para" synonym="prostheses" />
+			<Mainterm matchCount="1" name="quality of life" section="Para" synonym="" />
+			<Mainterm matchCount="3" name="questionnaire" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="relative" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="research" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="review" section="Para" synonym="" />
+			<Mainterm matchCount="2" name="sample" section="Para" synonym="" />
+			<Mainterm matchCount="2" name="sample size" section="Para" synonym="" />
+			<Mainterm matchCount="5" name="satisfaction" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="Saudi" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="Saudi Arabia" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="self concept" section="Para" synonym="self" />
+			<Mainterm matchCount="1" name="sex" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="standard" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="statistics" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="structured questionnaire" section="Para" synonym="" />
+			<Mainterm matchCount="4" name="study" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="systemic disease" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="temporomandibular joint" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="temporomandibular joint disorder" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="therapy" section="Para" synonym="" />
+			<Mainterm matchCount="2" name="tooth" section="Para" synonym="teeth" />
+			<Mainterm matchCount="1" name="tooth crown" section="Para" synonym="crown" />
+			<Mainterm matchCount="2" name="tooth prosthesis" section="Para" synonym="dental prostheses" />
+			<Mainterm matchCount="2" name="treatment outcome" section="Para" synonym="" />
+			<Mainterm matchCount="1" name="United States" section="Para" synonym="USA" />
+		</DocAnalyticsSection>
+		<DocAnalyticsSection name="Matching-EMMANS">
+			<EmmansTerm matchCount="1" name="SPSS" synonym="SPSS" />
+		</DocAnalyticsSection>
+		<DocAnalyticsSection name="F1" type="Summary">
+			<Mainterm FValueGroup="A &gt;= 0.85" name="human" />
+			<Mainterm FValueGroup="B 0.75_0.85" name="female" />
+			<Mainterm FValueGroup="B 0.75_0.85" name="male" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="adult" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="computer assisted tomography" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="controlled study" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="cross-sectional study" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="dabigatran" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="docosahexaenoic acid" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="human tissue" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="major clinical study" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="malocclusion" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="meta analysis" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="posttraumatic stress disorder" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="questionnaire" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="tooth extraction" />
+			<Mainterm FValueGroup="C 0.50_0.75" name="warfarin" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="DAS28" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="Short Form 36" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="body mass" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="cardiovascular risk" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="child" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="echocardiography" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="pain assessment" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="patient satisfaction" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="quality of life" />
+			<Mainterm FValueGroup="D 0.4_0.5" name="retrospective study" />
+		</DocAnalyticsSection>
+		<DocAnalyticsSection formula="modelscore &gt; 0.3 or (modelscore &gt; 0.04 and mainbodymatchcnt &gt; 0) or ( term in top100 modelscores and matchcount in title, keywords and abstract &gt; 0)" name="TermWeighted" type="Summary">
+			<Mainterm FValueGroup="A &gt;= 0.85" name="age" />
+			<Mainterm FValueGroup="C 0.5-0.75" name="prosthesis" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="quality of life" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="questionnaire" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="cross-sectional study" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="male" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="pain" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="patient satisfaction" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="human" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="female" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="adult" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="priority journal" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="major clinical study" />
+			<Mainterm FValueGroup="A &gt;= 0.85" name="aged" />
+			<Mainterm FValueGroup="C 0.5-0.75" name="malocclusion" />
+		</DocAnalyticsSection>
+		<DocAnalyticsSection final="true" formula="modelscore &gt; 0.2 &amp;&amp; section_matching_term_filter" name="Cutoff+SectionTermMatching" type="Summary">
+			<Mainterm matchcount="0" name="human" weight="0.9999873421204055" />
+			<Mainterm matchcount="0" name="female" weight="0.9842378528371835" />
+			<Mainterm matchcount="4" name="questionnaire" weight="0.8921185608971527" />
+			<Mainterm matchcount="0" name="adult" weight="0.8408933573385129" />
+			<Mainterm matchcount="0" name="cross-sectional study" weight="0.8082970811795094" />
+			<Mainterm matchcount="0" name="priority journal" weight="0.7316408885539848" />
+			<Mainterm matchcount="0" name="major clinical study" weight="0.7278529883222024" />
+			<Mainterm matchcount="1" name="patient satisfaction" weight="0.6566132673929445" />
+			<Mainterm matchcount="2" name="quality of life" weight="0.4636692190435783" />
+			<Mainterm matchcount="2" name="male" weight="0.3580347973947979" />
+			<Mainterm matchcount="0" name="aged" weight="0.31158739495400956" />
+			<Mainterm matchcount="0" name="malocclusion" weight="0.3017246086826202" />
+			<Mainterm matchcount="0" name="middle aged" weight="0.29496191681371925" />
+			<Mainterm matchcount="0" name="child" weight="0.27237427032657235" />
+			<Mainterm matchcount="0" name="prevalence" weight="0.2454936211345283" />
+			<Mainterm matchcount="0" name="computer aided design" weight="0.22515663622108112" />
+			<Mainterm matchcount="1" name="Saudi Arabia" weight="&lt;0.5" />
+			<Mainterm matchcount="1" name="denture" weight="&lt;0.2" />
+			<Mainterm matchcount="1" name="partial denture" weight="&lt;0.2" />
+			<Mainterm matchcount="2" name="structured questionnaire" weight="&lt;0.2" />
+			<Mainterm matchcount="1" name="temporomandibular joint" weight="&lt;0.2" />
+			<Mainterm matchcount="1" name="temporomandibular joint disorder" weight="&lt;0.2" />
+			<Mainterm matchcount="4" name="tooth prosthesis" weight="&lt;0.2" />
+		</DocAnalyticsSection>
+	</DocAnalyticsSections>
+</DocAnalytics>
