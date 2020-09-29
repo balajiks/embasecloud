@@ -17,18 +17,37 @@
             <input type="hidden" class="form-control" placeholder="pui" name="pui" id="pui" value="<?php echo e($jobdata->pui); ?>" />
             <input type="hidden" class="form-control" placeholder="orderid" name="orderid" id="orderid" value="<?php echo e($jobdata->orderid); ?>" />
             <input type="hidden" name="json" value="false"/>
+            <input type="hidden" class="form-control" placeholder="drugid" id="drugid" name="drugid" value="0" />
             <div class="row">
               <div class="col-md-3">
+                <div class="badge badge-info mr-2" style="margin-bottom:10px">Drug Term</div>
+                <br />
                 <div class="form-group">
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
                     <label>
-                    <input type="radio" id="txtdrugmajor" name="fcttermindexing" value="1">
-                    <span class="label-text text-info"><?php echo trans('app.'.'dsa'); ?></span></label>
+                    <input type="radio" id="txtdrugmajor" name="drugtermindexing" value="1">
+                    <span class="label-text text-info">Major</span></label>
                   </div>
                   <div class="col-lg-6">
                     <label>
-                    <input type="radio" id="txtdrugminor" name="fcttermindexing" value="0">
-                    <span class="label-text text-info"><?php echo trans('app.'.'dsb'); ?></span></label>
+                    <input type="radio" id="txtdrugminor" name="drugtermindexing" value="2">
+                    <span class="label-text text-info">Minor</span></label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="badge badge-info mr-2" style="margin-bottom:10px">Candidate Term</div>
+                <br />
+                <div class="form-group">
+                  <div class="col-lg-4">
+                    <label>
+                    <input type="radio" id="txtdrugcandidatemajor" name="drugtermindexing" value="3">
+                    <span class="label-text text-info">Major </span></label>
+                  </div>
+                  <div class="col-lg-6">
+                    <label>
+                    <input type="radio" id="txtdrugcandidateminor" name="drugtermindexing" value="4">
+                    <span class="label-text text-info">Minor</span></label>
                   </div>
                 </div>
               </div>
@@ -37,7 +56,7 @@
               <div class="col-lg-8">
                 <div class="frmSearch">
                   <input type="hidden" id="txtdrugtermtype" class="form-control"  name="txtdrugtermtype"  autocomplete="off">
-                  <input type="text" id="txtdrugmedicalterm" class="form-control" placeholder="<?php echo trans('app.'.'drugterm'); ?>" name="txtdrugmedicalterm" disabled="disabled" autocomplete="off">
+                  <input type="text" id="txtdrugterm" class="form-control" placeholder="<?php echo trans('app.'.'drugterm'); ?>" name="txtdrugterm" disabled="disabled" autocomplete="off">
                   <div id="suggesstion-box"></div>
                 </div>
               </div>
@@ -52,50 +71,47 @@
         <div class="row">
           <div class="col-md-5">
             <div class="sortable">
-              <div class="drug-list" id="nestable"> <?php echo app('arrilot.widget')->run('Indexing\ShowDrugterms', ['user_id' => \Auth::id(), 'jobid' => $jobdata->id, 'orderid' => $jobdata->orderid]); ?> </div>
+              <div class="drug-list" id="nestable"> <?php echo app('arrilot.widget')->run('Indexing\ShowDrugterms', ['user_id' => \Auth::id(), 'pui' => $jobdata->pui, 'jobid' => $jobdata->id, 'orderid' => $jobdata->orderid]); ?> </div>
             </div>
           </div>
           <div class="col-md-7">
             <div  id="selecteddrunmsg"> </div>
             <section class="scrollable slim-scroll" data-height="415" style="height:415px;">
-             <div class="row">
-                   
-                      <div class="vertical-tab disabledbutton" role="tabpanel" id="vertical-tab-menu">
-					   <div class="col-md-4">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                          <li role="presentation" class="othermenu"><a href="<?php echo e(route('indexing.api.frmdrugotherfield')); ?>" id="tab1" class="tabmenu">Other Fields</a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugtherapy')); ?>" id="tab2" class="tabmenu"><?php echo trans('app.'.'drugtherapy'); ?></a></li>
-                          <li role="presentation" class="drugmenu" style="display:none;"><a href="<?php echo e(route('indexing.api.frmdrugdoseinfo')); ?>" id="tab3" class="tabmenu"><?php echo trans('app.'.'drugdoseinfo'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmrouteofdrug')); ?>" id="tab4" class="tabmenu"><?php echo trans('app.'.'routeofdrug'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdosefrequency')); ?>" id="tab5" class="tabmenu"><?php echo trans('app.'.'dosefrequency'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugcombination')); ?>" id="tab6" class="tabmenu"><?php echo trans('app.'.'drugcombination'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmadversedrug')); ?>" id="tab7" class="tabmenu"><?php echo trans('app.'.'adversedrug'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugcomparison')); ?>" id="tab8" class="tabmenu"><?php echo trans('app.'.'drugcomparison'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugdosage')); ?>" id="tab9" class="tabmenu"><?php echo trans('app.'.'drugdosage'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdruginteraction')); ?>" id="tab10" class="tabmenu"><?php echo trans('app.'.'druginteraction'); ?></a></li>
-                          <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugpharma')); ?>" id="tab11" class="tabmenu"><?php echo trans('app.'.'drugpharma'); ?></a></li>
-                          
-                        </ul>
-						</div>
-						 <div class="col-md-8">
-                        <!-- Tab panes -->
-                        <?php echo Form::open(['route' => 'indexing.api.savedruglinks', 'id' => 'createDrugLinks', 'class' => 'bs-example form-horizontal m-b-none']); ?>
-
-                        <input type="hidden" class="form-control" placeholder="jobid" name="jobid" id="jobid" value="<?php echo e($jobdata->id); ?>" />
-                        <input type="hidden" class="form-control" placeholder="pui" name="pui" id="pui" value="<?php echo e($jobdata->pui); ?>" />
-                        <input type="hidden" class="form-control" placeholder="orderid" name="orderid" id="orderid" value="<?php echo e($jobdata->orderid); ?>" />
-                        <input type="radio" id="txtdrugmajorselected"  value="1" readonly="readonly">
-                        <input type="radio" id="txtdrugminorselected"  value="0" readonly="readonly">
-                        <input type="hidden" id="drugindexterm" name="drugindexterm"  value="" readonly="readonly">
-                        <input type="hidden" id="drugindextermtype" name="drugindextermtype"  value="" readonly="readonly">
-                        <input type="hidden" name="selecteddrugid" id="selecteddrugid" value=""/>
-                        <div id="preloader"><i class="fas fa-spin fa-spinner"></i> Loading...</div>
-                        <div id="tabcontent"> </div>
-                        <?php echo Form::close(); ?> 
-						</div>
-                    </div>
+              <div class="row">
+                <div class="vertical-tab disabledbutton" role="tabpanel" id="vertical-tab-menu">
+                  <div class="col-md-4">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="othermenu"><a href="<?php echo e(route('indexing.api.frmdrugotherfield')); ?>" id="tab1" class="tabmenu">Other Fields</a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugtherapy')); ?>" id="tab2" class="tabmenu"><?php echo trans('app.'.'drugtherapy'); ?></a></li>
+                      <li role="presentation" class="drugmenu" style="display:none;"><a href="<?php echo e(route('indexing.api.frmdrugdoseinfo')); ?>" id="tab3" class="tabmenu"><?php echo trans('app.'.'drugdoseinfo'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmrouteofdrug')); ?>" id="tab4" class="tabmenu"><?php echo trans('app.'.'routeofdrug'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdosefrequency')); ?>" id="tab5" class="tabmenu"><?php echo trans('app.'.'dosefrequency'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugcombination')); ?>" id="tab6" class="tabmenu"><?php echo trans('app.'.'drugcombination'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmadversedrug')); ?>" id="tab7" class="tabmenu"><?php echo trans('app.'.'adversedrug'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugcomparison')); ?>" id="tab8" class="tabmenu"><?php echo trans('app.'.'drugcomparison'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugdosage')); ?>" id="tab9" class="tabmenu"><?php echo trans('app.'.'drugdosage'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdruginteraction')); ?>" id="tab10" class="tabmenu"><?php echo trans('app.'.'druginteraction'); ?></a></li>
+                      <li role="presentation" class="drugmenu"><a href="<?php echo e(route('indexing.api.frmdrugpharma')); ?>" id="tab11" class="tabmenu"><?php echo trans('app.'.'drugpharma'); ?></a></li>
+                    </ul>
                   </div>
+                  <div class="col-md-8">
+                    <!-- Tab panes -->
+                    <?php echo Form::open(['route' => 'indexing.api.savedruglinks', 'id' => 'createDrugLinks', 'class' => 'bs-example form-horizontal m-b-none']); ?>
+
+                    <input type="hidden" class="form-control" placeholder="jobid" name="jobid" id="jobid" value="<?php echo e($jobdata->id); ?>" />
+                    <input type="hidden" class="form-control" placeholder="pui" name="pui" id="pui" value="<?php echo e($jobdata->pui); ?>" />
+                    <input type="hidden" class="form-control" placeholder="orderid" name="orderid" id="orderid" value="<?php echo e($jobdata->orderid); ?>" />
+                    <input type="radio" id="txtdrugmajorselected"  value="1" readonly="readonly">
+                    <input type="radio" id="txtdrugminorselected"  value="0" readonly="readonly">
+                    <input type="hidden" id="drugindexterm" name="drugindexterm"  value="" readonly="readonly">
+                    <input type="hidden" id="drugindextermtype" name="drugindextermtype"  value="" readonly="readonly">
+                    <input type="hidden" name="selecteddrugid" id="selecteddrugid" value=""/>
+                    <div id="preloader"><i class="fas fa-spin fa-spinner"></i> Loading...</div>
+                    <div id="tabcontent"> </div>
+                    <?php echo Form::close(); ?> </div>
+                </div>
+              </div>
             </section>
           </div>
         </div>
@@ -251,8 +267,6 @@
   background: #da4932;
 }
 
-
-
 #preloader
 {
 	position: absolute;
@@ -311,62 +325,110 @@ jQuery(document).ready(function(){
 	});
 });
 			
-			
-			
-			
 $("#disablepanel").addClass("disabledbutton");
+
 $(function () {
-	$("input[name='fcttermindexing']").click(function () {
+	$("input[name='drugtermindexing']").click(function () {
 		if ($("#txtdrugmajor").is(":checked")) {
-			$("#txtdrugmedicalterm").removeAttr("disabled");
-			$("#txtdrugmedicalterm").focus();
-		} else {
-			$("#txtdrugmedicalterm").removeAttr("disabled");
-			$("#txtdrugmedicalterm").focus();
-		}
+			$('#txtdrugterm').val('');
+			$("#txtdrugterm").removeAttr("disabled");
+			$('#txtdrugterm').prop("disabled", false);
+			$('#txtdrugterm').attr('placeholder', "<?php echo trans('app.'.'mmt'); ?>");
+			$('#suggesstion-box').show();
+			
+			callautosuggestion('show');				
+			$("#txtdrugterm").focus();
+		} else if ($("#txtdrugminor").is(":checked")) {			
+			$('#txtdrugterm').val('');
+			$('#txtdrugterm').attr('placeholder', "<?php echo trans('app.'.'mmit'); ?>");	
+			$('#txtdrugterm').prop("disabled", false);
+			$("#txtdrugterm").removeAttr("disabled");			
+			$('#suggesstion-box').show();
+			callautosuggestion('show');		
+			$("#txtdrugterm").focus();	
+	   } else if ($("#txtdrugcandidatemajor").is(":checked")) {
+			$('#txtdrugterm').off('keyup');
+			$('#suggesstion-box').hide();
+			$('#txtdrugterm').val('');
+			$('#txtdrugterm').attr('placeholder', "Major Candidate Term");	
+			$('#txtdrugterm').prop("disabled", false);
+			$("#txtdrugterm").removeAttr("disabled");
+			
+			callautosuggestion('hide');
+			$('#suggesstion-box').hide();
+			$("#txtdrugterm").focus();	
+		} else if ($("#txtdrugcandidateminor").is(":checked")) {
+			$('#txtdrugterm').off('keyup');
+			$('#suggesstion-box').hide();
+			$('#txtdrugterm').val('');
+			$('#txtdrugterm').attr('placeholder', "Minor Candidate Term");	
+			$('#txtdrugterm').prop("disabled", false);
+			$("#txtdrugterm").removeAttr("disabled");			
+			callautosuggestion('hide');
+			$('#suggesstion-box').hide();
+			$("#txtdrugterm").focus();	
+	   }
 	});
 });
+
+
+
+
+
+
+
+
 function selectedTerms(name,term){
-	$("#txtdrugmedicalterm").val(name);
+	$("#txtdrugterm").val(name);
 	$("#txtdrugtermtype").val(term);
 	$("#suggesstion-box").hide();
 }
 
 
-
-$(document).ready(function(){  
-	$('#txtdrugmedicalterm').keyup(function(){  
-           var keyvalue = $(this).val();  
-		   if(keyvalue !='') {
-				axios.post('<?php echo e(get_option('site_url')); ?>api/v1/indexing/ajax/termdrug', {
-					searchterm: keyvalue
-				})
-				.then(function (response) {
-					$('#suggesstion-box').fadeIn();  
-                    $('#suggesstion-box').html(response.data); 
-					<!--toastr.success(response.data.message, '<?php echo trans('app.'.'success'); ?> ');-->
-				})
-				.catch(function (error) {
-					var errors = error.response.data.errors;
-					var errorsHtml= '';
-					$.each( errors, function( key, value ) {
-						errorsHtml += '<li>' + value[0] + '</li>';
+function callautosuggestion(data){
+	if(data == 'show'){
+			$('#txtdrugterm').keyup(function(){  
+			   var keyvalue = $(this).val();  
+			   if(keyvalue !='') {
+					axios.post('<?php echo e(get_option('site_url')); ?>api/v1/indexing/ajax/termdrug', {
+						searchterm: keyvalue,
+						searchtype: 'drug',
+						suggestion: data,
+					})
+					.then(function (response) {
+						$('#suggesstion-box').fadeIn();  
+						$('#suggesstion-box').html(response.data); 
+						<!--toastr.success(response.data.message, '<?php echo trans('app.'.'success'); ?> ');-->
+					})
+					.catch(function (error) {
+						var errors = error.response.data.errors;
+						var errorsHtml= '';
+						$.each( errors, function( key, value ) {
+							errorsHtml += '<li>' + value[0] + '</li>';
+						});
+						toastr.error( errorsHtml , '<?php echo trans('app.'.'response_status'); ?> ');
 					});
-					toastr.error( errorsHtml , '<?php echo trans('app.'.'response_status'); ?> ');
-				});
-			}
-      }); 
-	  
- });
+				}
+			}); 
+	} else {	
+		$('#txtdrugterm').keyup(function(){ 
+			$('#suggesstion-box').fadeIn();  
+			$('#suggesstion-box').html(''); 
+		});
+	}
+}
+
+
+<?php /*?>
 	
-	$('#hide_mmtct').click(function(){
-		if($(this).prop("checked") == true){
-			$("#disablepanel").removeClass("disabledbutton");
-			
-		} else if($(this).prop("checked") == false){
-			$("#disablepanel").addClass("disabledbutton");
-		}
-	});
+$('#hide_mmtct').click(function(){
+	if($(this).prop("checked") == true){
+		$("#disablepanel").removeClass("disabledbutton");
+		
+	} else if($(this).prop("checked") == false){
+		$("#disablepanel").addClass("disabledbutton");
+	}
+});
 	
 	function showchecktagdesc(selectedcheckboxval){
 		var innerdata = '<div data-collapsed="0" class="panel panel-primary"><div class="panel-heading"> <div class="panel-title">Reference Information!!</div> </div> <div class="panel-body"> <p>'+document.getElementById(selectedcheckboxval).value+'</p> </div> </div> </div>';
@@ -382,7 +444,7 @@ $(document).ready(function(){
 		}
 	});
 
-<?php /*?>function selectedotherfield(selectval){
+function selectedotherfield(selectval){
 alert(selectval);
 
 	if(selectval == 'endogenouscompound'){
@@ -412,6 +474,7 @@ function selecteddrugdata(id,name,type){
 	}
 	
 	
+	
 	$("[id^=drugtermshighlight]").removeClass("activeli");
 	$("#drugtermshighlight-"+id).addClass("activeli");
 	$("#vertical-tab-menu").removeClass("disabledbutton");
@@ -419,6 +482,11 @@ function selecteddrugdata(id,name,type){
 	$("[id^=tab]").parent().removeClass("active");
 	$(".checkbox").removeClass("disabledbutton");
 	$(".drugmenu").removeClass("disabledbutton");
+	
+	$( ".card" ).removeClass( "active" );
+	alert($(this).attr("data-id"));
+	alert(id);
+	$( "#drug-"+id ).parents().addClass( "active" );
 	
 }
 

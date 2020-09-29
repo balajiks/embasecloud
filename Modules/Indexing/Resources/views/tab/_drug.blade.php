@@ -16,19 +16,37 @@
             <input type="hidden" class="form-control" placeholder="pui" name="pui" id="pui" value="{{$jobdata->pui}}" />
             <input type="hidden" class="form-control" placeholder="orderid" name="orderid" id="orderid" value="{{$jobdata->orderid}}" />
             <input type="hidden" name="json" value="false"/>
-			<input type="hidden" class="form-control" placeholder="drugid" id="drugid" name="drugid" value="0" />
+            <input type="hidden" class="form-control" placeholder="drugid" id="drugid" name="drugid" value="0" />
             <div class="row">
               <div class="col-md-3">
+                <div class="badge badge-info mr-2" style="margin-bottom:10px">Drug Term</div>
+                <br />
                 <div class="form-group">
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
                     <label>
-                    <input type="radio" id="txtdrugmajor" name="fcttermindexing" value="1">
-                    <span class="label-text text-info">@langapp('dsa')</span></label>
+                    <input type="radio" id="txtdrugmajor" name="drugtermindexing" value="1">
+                    <span class="label-text text-info">Major</span></label>
                   </div>
                   <div class="col-lg-6">
                     <label>
-                    <input type="radio" id="txtdrugminor" name="fcttermindexing" value="0">
-                    <span class="label-text text-info">@langapp('dsb')</span></label>
+                    <input type="radio" id="txtdrugminor" name="drugtermindexing" value="2">
+                    <span class="label-text text-info">Minor</span></label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="badge badge-info mr-2" style="margin-bottom:10px">Candidate Term</div>
+                <br />
+                <div class="form-group">
+                  <div class="col-lg-4">
+                    <label>
+                    <input type="radio" id="txtdrugcandidatemajor" name="drugtermindexing" value="3">
+                    <span class="label-text text-info">Major </span></label>
+                  </div>
+                  <div class="col-lg-6">
+                    <label>
+                    <input type="radio" id="txtdrugcandidateminor" name="drugtermindexing" value="4">
+                    <span class="label-text text-info">Minor</span></label>
                   </div>
                 </div>
               </div>
@@ -37,7 +55,7 @@
               <div class="col-lg-8">
                 <div class="frmSearch">
                   <input type="hidden" id="txtdrugtermtype" class="form-control"  name="txtdrugtermtype"  autocomplete="off">
-                  <input type="text" id="txtdrugmedicalterm" class="form-control" placeholder="@langapp('drugterm')" name="txtdrugmedicalterm" disabled="disabled" autocomplete="off">
+                  <input type="text" id="txtdrugterm" class="form-control" placeholder="@langapp('drugterm')" name="txtdrugterm" disabled="disabled" autocomplete="off">
                   <div id="suggesstion-box"></div>
                 </div>
               </div>
@@ -52,7 +70,7 @@
         <div class="row">
           <div class="col-md-5">
             <div class="sortable">
-              <div class="drug-list" id="nestable"> @widget('Indexing\ShowDrugterms', ['user_id' => \Auth::id(), 'jobid' => $jobdata->id, 'orderid' => $jobdata->orderid]) </div>
+              <div class="drug-list" id="nestable"> @widget('Indexing\ShowDrugterms', ['user_id' => \Auth::id(), 'pui' => $jobdata->pui, 'jobid' => $jobdata->id, 'orderid' => $jobdata->orderid]) </div>
             </div>
           </div>
           <div class="col-md-7">
@@ -247,8 +265,6 @@
   background: #da4932;
 }
 
-
-
 #preloader
 {
 	position: absolute;
@@ -307,62 +323,110 @@ jQuery(document).ready(function(){
 	});
 });
 			
-			
-			
-			
 $("#disablepanel").addClass("disabledbutton");
+
 $(function () {
-	$("input[name='fcttermindexing']").click(function () {
+	$("input[name='drugtermindexing']").click(function () {
 		if ($("#txtdrugmajor").is(":checked")) {
-			$("#txtdrugmedicalterm").removeAttr("disabled");
-			$("#txtdrugmedicalterm").focus();
-		} else {
-			$("#txtdrugmedicalterm").removeAttr("disabled");
-			$("#txtdrugmedicalterm").focus();
-		}
+			$('#txtdrugterm').val('');
+			$("#txtdrugterm").removeAttr("disabled");
+			$('#txtdrugterm').prop("disabled", false);
+			$('#txtdrugterm').attr('placeholder', "@langapp('mmt')");
+			$('#suggesstion-box').show();
+			
+			callautosuggestion('show');				
+			$("#txtdrugterm").focus();
+		} else if ($("#txtdrugminor").is(":checked")) {			
+			$('#txtdrugterm').val('');
+			$('#txtdrugterm').attr('placeholder', "@langapp('mmit')");	
+			$('#txtdrugterm').prop("disabled", false);
+			$("#txtdrugterm").removeAttr("disabled");			
+			$('#suggesstion-box').show();
+			callautosuggestion('show');		
+			$("#txtdrugterm").focus();	
+	   } else if ($("#txtdrugcandidatemajor").is(":checked")) {
+			$('#txtdrugterm').off('keyup');
+			$('#suggesstion-box').hide();
+			$('#txtdrugterm').val('');
+			$('#txtdrugterm').attr('placeholder', "Major Candidate Term");	
+			$('#txtdrugterm').prop("disabled", false);
+			$("#txtdrugterm").removeAttr("disabled");
+			
+			callautosuggestion('hide');
+			$('#suggesstion-box').hide();
+			$("#txtdrugterm").focus();	
+		} else if ($("#txtdrugcandidateminor").is(":checked")) {
+			$('#txtdrugterm').off('keyup');
+			$('#suggesstion-box').hide();
+			$('#txtdrugterm').val('');
+			$('#txtdrugterm').attr('placeholder', "Minor Candidate Term");	
+			$('#txtdrugterm').prop("disabled", false);
+			$("#txtdrugterm").removeAttr("disabled");			
+			callautosuggestion('hide');
+			$('#suggesstion-box').hide();
+			$("#txtdrugterm").focus();	
+	   }
 	});
 });
+
+
+
+
+
+
+
+
 function selectedTerms(name,term){
-	$("#txtdrugmedicalterm").val(name);
+	$("#txtdrugterm").val(name);
 	$("#txtdrugtermtype").val(term);
 	$("#suggesstion-box").hide();
 }
 
 
-
-$(document).ready(function(){  
-	$('#txtdrugmedicalterm').keyup(function(){  
-           var keyvalue = $(this).val();  
-		   if(keyvalue !='') {
-				axios.post('{{ get_option('site_url') }}api/v1/indexing/ajax/termdrug', {
-					searchterm: keyvalue
-				})
-				.then(function (response) {
-					$('#suggesstion-box').fadeIn();  
-                    $('#suggesstion-box').html(response.data); 
-					<!--toastr.success(response.data.message, '@langapp('success') ');-->
-				})
-				.catch(function (error) {
-					var errors = error.response.data.errors;
-					var errorsHtml= '';
-					$.each( errors, function( key, value ) {
-						errorsHtml += '<li>' + value[0] + '</li>';
+function callautosuggestion(data){
+	if(data == 'show'){
+			$('#txtdrugterm').keyup(function(){  
+			   var keyvalue = $(this).val();  
+			   if(keyvalue !='') {
+					axios.post('{{ get_option('site_url') }}api/v1/indexing/ajax/termdrug', {
+						searchterm: keyvalue,
+						searchtype: 'drug',
+						suggestion: data,
+					})
+					.then(function (response) {
+						$('#suggesstion-box').fadeIn();  
+						$('#suggesstion-box').html(response.data); 
+						<!--toastr.success(response.data.message, '@langapp('success') ');-->
+					})
+					.catch(function (error) {
+						var errors = error.response.data.errors;
+						var errorsHtml= '';
+						$.each( errors, function( key, value ) {
+							errorsHtml += '<li>' + value[0] + '</li>';
+						});
+						toastr.error( errorsHtml , '@langapp('response_status') ');
 					});
-					toastr.error( errorsHtml , '@langapp('response_status') ');
-				});
-			}
-      }); 
-	  
- });
+				}
+			}); 
+	} else {	
+		$('#txtdrugterm').keyup(function(){ 
+			$('#suggesstion-box').fadeIn();  
+			$('#suggesstion-box').html(''); 
+		});
+	}
+}
+
+
+<?php /*?>
 	
-	$('#hide_mmtct').click(function(){
-		if($(this).prop("checked") == true){
-			$("#disablepanel").removeClass("disabledbutton");
-			
-		} else if($(this).prop("checked") == false){
-			$("#disablepanel").addClass("disabledbutton");
-		}
-	});
+$('#hide_mmtct').click(function(){
+	if($(this).prop("checked") == true){
+		$("#disablepanel").removeClass("disabledbutton");
+		
+	} else if($(this).prop("checked") == false){
+		$("#disablepanel").addClass("disabledbutton");
+	}
+});
 	
 	function showchecktagdesc(selectedcheckboxval){
 		var innerdata = '<div data-collapsed="0" class="panel panel-primary"><div class="panel-heading"> <div class="panel-title">Reference Information!!</div> </div> <div class="panel-body"> <p>'+document.getElementById(selectedcheckboxval).value+'</p> </div> </div> </div>';
@@ -378,7 +442,7 @@ $(document).ready(function(){
 		}
 	});
 
-<?php /*?>function selectedotherfield(selectval){
+function selectedotherfield(selectval){
 alert(selectval);
 
 	if(selectval == 'endogenouscompound'){
@@ -408,6 +472,7 @@ function selecteddrugdata(id,name,type){
 	}
 	
 	
+	
 	$("[id^=drugtermshighlight]").removeClass("activeli");
 	$("#drugtermshighlight-"+id).addClass("activeli");
 	$("#vertical-tab-menu").removeClass("disabledbutton");
@@ -415,6 +480,11 @@ function selecteddrugdata(id,name,type){
 	$("[id^=tab]").parent().removeClass("active");
 	$(".checkbox").removeClass("disabledbutton");
 	$(".drugmenu").removeClass("disabledbutton");
+	
+	$( ".card" ).removeClass( "active" );
+	alert($(this).attr("data-id"));
+	alert(id);
+	$( "#drug-"+id ).parents().addClass( "active" );
 	
 }
 

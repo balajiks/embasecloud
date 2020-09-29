@@ -121,7 +121,7 @@
         <div class="panel-body card">
 		<div class="form-group">
           <div class="sortable">
-            <div class="medical-list" id="nestable"> @widget('Indexing\ShowMedicals', ['user_id' => \Auth::id(), 'jobid' => $jobdata->id, 'orderid' => $jobdata->orderid]) </div>
+            <div class="medical-list" id="nestable"> @widget('Indexing\ShowMedicals', ['user_id' => \Auth::id(), 'pui' => $jobdata->pui, 'jobid' => $jobdata->id, 'orderid' => $jobdata->orderid]) </div>
           </div>
         </div>
       </div>

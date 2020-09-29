@@ -1,5 +1,5 @@
 @push('pagescript')
-	<script>
+<script>
 	ajaxdatview();	
 /*-----------------------------------------------------------------------------------------------------------*/
 /*----------------------------------Field Section Indexing --------------------------------------------------*/
@@ -512,58 +512,160 @@ $('.medical-list').on('click', '.editMedical', function (e) {
 		toastr.error( errorsHtml , '@langapp('response_status') ');
 		$(".formSaving").html('<i class="fas fa-sync"></i> Try Again');
 	});
-});		
+});	
+
 
 /*-----------------------------------------------------------------------------------------------------------*/
 /*----------------------------------Field Section Medical --------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------*/		
 
-	$('#createDrug').on('submit', function(e) {
-            $(".formSaving").html('Processing..<i class="fas fa-spin fa-spinner"></i>');
-            e.preventDefault();
-            var indexerdrug, data;
-            indexerdrug = $(this);
-			
-		    data = indexerdrug.serialize();
-            axios.post('{{ route('indexing.api.savedrug') }}', data)
-            .then(function (response) {
-					<!--console.log(response);-->
-					<!--return false;-->
-					ajaxdatview();
-					open = false;
-					toggle(open);
-
-					$("#txtdrugmedicalterm").val('');
-					$("#txtdrugmajor").prop("checked", false);
-					$("#txtdrugminor").prop("checked", false);
-					
-					if(response.data.type == '1') {
-                    	$('#major-listdata').prepend(response.data.htmldrugterm);	
-					} else {
-						$('#minor-listdata').prepend(response.data.htmldrugterm);
-					}
-					 
-									
-					$("#drugminortotalajax").html(response.data.minorcount);
-					$("#drugmajortotalajax").html(response.data.majorcount);
-							
-					$("#drugtotalajax").html(response.data.totaldrugcountterm);					
-					
-                    toastr.success( response.data.message , '@langapp('response_status') ');
-                    $(".formSaving").html('<i class="fas fa-save"></i> @langapp('save') </span>');
-                    indexerdrug[0].reset();
-            })
-            .catch(function (error) {
-                var errors = error.response.data.errors;
-                var errorsHtml= '';
-                $.each( errors, function( key, value ) {
-                errorsHtml += '<li>' + value[0] + '</li>';
-                });
-                toastr.error( errorsHtml , '@langapp('response_status') ');
-                $(".formSaving").html('<i class="fas fa-sync"></i> Try Again');
-        });
-        });
+$('#createDrug').on('submit', function(e) {
+		$(".formSaving").html('Processing..<i class="fas fa-spin fa-spinner"></i>');
+		e.preventDefault();
+		var indexerdrug, data;
+		indexerdrug = $(this);
 		
+		data = indexerdrug.serialize();
+		axios.post('{{ route('indexing.api.savedrug') }}', data)
+		.then(function (response) {
+				if(response.data.success == true){
+						if(response.data.recordstatus == 'update'){						
+							$('#drugdata-'+ $("#drugid").val()).hide(500, function () {
+                        		$(this).remove();
+                   			});	
+						}
+						
+						
+						ajaxdatview();
+						open = false;
+						toggle(open);
+		
+						$("#txtdrugterm").val('');
+						$("#txtdrugmajor").prop("checked", false);
+						$("#txtdrugminor").prop("checked", false);
+						
+						if(response.data.type == '1' || response.data.type == '3' || response.data.type == '5') {
+							$('#major-druglistdata').prepend(response.data.htmldrugterm);	
+						} else {
+							$('#minor-druglistdata').prepend(response.data.htmldrugterm);
+						}
+						 
+										
+						$("#drugminortotalajax").html(response.data.minorcount);
+						$("#drugmajortotalajax").html(response.data.majorcount);
+								
+						$("#drugtotalajax").html(response.data.totaldrugcountterm);					
+						
+						toastr.success( response.data.message , '@langapp('response_status') ');
+						$(".formSaving").html('<i class="fas fa-save"></i> @langapp('save') </span>');
+						indexerdrug[0].reset();
+						
+						
+						
+										
+					} else {
+						toastr.error( response.data.message , '@langapp('response_status') ');	
+						$(".formSaving").html('<i class="fas fa-save"></i> @langapp('save') </span>');			
+					}		
+		
+				
+		})
+		.catch(function (error) {
+			var errors = error.response.data.errors;
+			var errorsHtml= '';
+			$.each( errors, function( key, value ) {
+			errorsHtml += '<li>' + value[0] + '</li>';
+			});
+			toastr.error( errorsHtml , '@langapp('response_status') ');
+			$(".formSaving").html('<i class="fas fa-sync"></i> Try Again');
+	});
+});
+		
+
+
+$('.drug-list').on('click', '.deletedrugterm', function (e) {
+	e.preventDefault();
+	var drugterm, id;
+	drugterm 	= 	$(this);
+	id 			= 	drugterm.data('drug-id');
+	if(!confirm('Do you want to delete this "'+ $('#drug-'+id+' .widget-heading').html() +'" Drug term?')) {
+		return false;
+	}
+	
+	$("#preloader").show();
+	axios.delete('{{ get_option("site_url") }}api/v1/indexing/'+id+'/drugtermindex', {
+	   id: id,
+	})
+	.then(function (response) {
+		$("#drugminortotalajax").html(response.data.minorcount);
+		$("#drugmajortotalajax").html(response.data.majorcount);
+		$("#drugtotalajax").html(response.data.totaldrug);	
+		$('#drugdata-'+ id).hide(500, function () {
+			$(this).remove();
+		});	
+		toastr.success( response.data.message , '@langapp('response_status') ');
+		$("#preloader").hide();
+		ajaxdatview();
+		open = false;
+		toggle(open);
+	})
+	.catch(function (error) {
+		toastr.error( 'Oops! Something went wrong!' , '@langapp('response_status') ');
+	});
+});
+
+$('.drug-list').on('click', '.editDrug', function (e) {
+	e.preventDefault();
+	var drug, id;
+	drug = $(this);
+	id = drug.data('drug-id');
+	axios.get('{{ get_option("site_url") }}api/v1/indexing/getdrugdata/'+id, {
+	  "id": id
+	})
+	.then(function (response) {
+		$('#drugid').val(response.data[0].id);
+		
+		var termcategory = response.data[0].termcategory;
+		switch (termcategory) {
+		  case 'drugterm':
+			$("#txtdrug"+response.data[0].type). prop("checked", true);	
+			$('#suggesstion-box').show();
+			callautosuggestion('show');	
+			break;
+		  case 'candidateterm':
+			$("#txtdrugcandidate"+response.data[0].type). prop("checked", true);	
+			$('#suggesstion-box').hide();
+			callautosuggestion('hide');			
+			break;
+		}
+		
+		
+		
+		$("#txtdrugterm").val(response.data[0].drugterm);
+		$("#txtdrugterm").removeClass("disabled");
+		$("#txtdrugterm").removeAttr("disabled");
+		$("#txtdrugterm").focus();
+		
+		
+		
+		
+	})
+	.catch(function (error) {
+		var errors = error.response.data.errors;
+		var errorsHtml= '';
+		$.each( errors, function( key, value ) {
+			errorsHtml += '<li>' + value[0] + '</li>';
+		});
+		toastr.error( errorsHtml , '@langapp('response_status') ');
+		$(".formSaving").html('<i class="fas fa-sync"></i> Try Again');
+	});
+});	
+
+
+
+
+
+
 		
 		$('#createDrugLinks').on('submit', function(e) {
             $("#savebtn").html('Processing..<i class="fas fa-spin fa-spinner"></i>');
@@ -1130,7 +1232,10 @@ function toggle(open){
  
  $('.todo-list-wrapper').on('click', '.medicalajax', function (e) {
 	e.preventDefault();
+	$("#preloader").hide();
+	$( ".card" ).removeClass( "active" );
 	var medicallistId = $(this).attr("data-id");
+	$( "#medical-"+$(this).attr("data-id") ).parents().addClass( "active" );
 	$('#diseaseterm').html('<i class="fas fa-spin fa-spinner"></i> Loading...');
 	if(medicallistId !='') {
 		axios.post('{{ get_option('site_url') }}api/v1/indexing/ajax/getmedicaldiseasesdetails', {

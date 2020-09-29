@@ -16,6 +16,7 @@ class ShowDrugterms extends AbstractWidget
         'indexingdrugterms' => [],
 		'user_id' 			=> [],
 		'jobid' 			=> [],
+		'pui' 				=> [],
 		'orderid' 			=> [],
     ];
 
@@ -28,6 +29,7 @@ class ShowDrugterms extends AbstractWidget
         $data['indexingdrugterms'] 	= $this->config['indexingdrugterms'];
 		$data['user_id'] 			= $this->config['user_id'];
 		$data['jobid'] 				= $this->config['jobid'];
+		$data['pui'] 				= $this->config['pui'];
 		$data['orderid'] 			= $this->config['orderid'];
 
         return view(

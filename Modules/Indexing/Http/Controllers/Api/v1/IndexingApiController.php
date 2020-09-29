@@ -84,7 +84,10 @@ class IndexingApiController extends Controller
 			return ajaxResponse($getMedicaldata, true, Response::HTTP_OK);
 	}
 
-	
+	public function getdrugdata($id = null){
+			$getDrugdata		=	DB::table('index_drug')->where('id', $id)->get()->toArray();
+			return ajaxResponse($getDrugdata, true, Response::HTTP_OK);
+	}
 	
 	/**
      * Save new indexing
@@ -1517,39 +1520,193 @@ class IndexingApiController extends Controller
      * Save new Medical Term
      */
     public function savedrug(CreateMedicalRequest $request){
-			if($request->fcttermindexing == '1' && $request->txtdrugmedicalterm !=''){
-				$data =[
-						'jobid' 		=> $request->jobid, 
-						'orderid' 		=> $request->orderid,
-						'pui' 			=> $request->pui,
-						'user_id' 		=> \Auth::id(),
-						'type' 			=> 'major',
-						'termtype' 		=> $request->txtdrugtermtype,		
-						'drugterm' 	=> $request->txtdrugmedicalterm,
-						'status' 		=> '1', 		
-						'created_at' 	=> date('Y-m-d H:i:s'),
-					   ];   
-				$InsertedID = DB::table('index_drug')->insert($data);
-				$last_id 	= DB::getPDO()->lastInsertId();	
-			} elseif($request->fcttermindexing == '0' && $request->txtdrugmedicalterm !=''){
-				$data =[
-						'jobid' 		=> $request->jobid, 
-						'orderid' 		=> $request->orderid,
-						'pui' 			=> $request->pui,
-						'user_id' 		=> \Auth::id(),
-						'type' 			=> 'minor',
-						'termtype' 		=> $request->txtdrugtermtype, 							
-						'drugterm' 		=> $request->txtdrugmedicalterm,
-						'status' 		=> '1', 		
-						'created_at' 	=> date('Y-m-d H:i:s'),
-					   ];   
-				$InsertedID = DB::table('index_drug')->insert($data);
-				$last_id 	= DB::getPDO()->lastInsertId();	
-			}
+	
+	
+	
+			if($request->txtdrugterm !=''){
+				$matchThese 	= ['user_id' => \Auth::id(), 'jobid' => $request->jobid, 'pui' => $request->pui, 'orderid' => $request->orderid];
+				$arraycheck     = array();
+				if($request->drugid == '0'){	
+					$drugdata	= DB::table('index_drug')->select('drugterm as term')->where($matchThese)->get()->toArray();
+				} else {
+					$drugdata	= DB::table('index_drug')->select('drugterm as term')->where($matchThese)->where('id', '!=', $request->drugid)->get()->toArray();
+				}
+				
+				$arraycheck = array_column(@$drugdata, 'term');
+				$matchdataThese 	= ['user_id' => \Auth::id(), 'type' => 'major', 'jobid' => $request->jobid, 'pui' => $request->pui, 'orderid' => $request->orderid];
+				$drugmajorcount	= DB::table('index_drug')->where($matchdataThese)->count();
+				
+				
+				switch ($request->drugtermindexing) {
+				  case "1":
+						if($drugmajorcount < 6 ){
+							if (in_array($request->txtdrugterm, $arraycheck)) {
+								return ajaxResponse(
+									[
+										'count'      => $drugmajorcount,
+										'message' 	 => '"'.$request->txtdrugterm.'" already assigned to drug term',
+									],
+								false,
+								Response::HTTP_OK
+								);
+							} else {
+								$data =[
+										'jobid' 		=> $request->jobid, 
+										'orderid' 		=> $request->orderid,
+										'pui' 			=> $request->pui,
+										'user_id' 		=> \Auth::id(),
+										'type' 			=> 'major',
+										'termcategory' 	=> 'drugterm',
+										'termtype' 		=> $request->txtdrugtermtype,		
+										'drugterm' 		=> $request->txtdrugterm,
+										'status' 		=> '1', 		
+										'modified_at' 	=> date('Y-m-d H:i:s'),
+									   ]; 
+									   
+								if($request->drugid == '0'){	   
+									$InsertedID = DB::table('index_drug')->insert($data);
+									$last_id 	= DB::getPDO()->lastInsertId();
+								
+								} else {
+									DB::table('index_drug')->where('id',$request->drugid)->update($data);
+									$last_id 	= $request->drugid;
+								}
+						  }
+						} else {
+							return ajaxResponse(
+								[
+									'count'      => $drugmajorcount,
+									'message'    => 'Maximum 6 major drug terms allowed!!',
+								],
+							false,
+							Response::HTTP_OK
+							);
+						}
+					break;
+				  case "2":
+						if (in_array($request->txtdrugterm, $arraycheck)) {
+							return ajaxResponse(
+								[
+									'count'      => $drugmajorcount,
+									'message' 	 => '"'.$request->txtdrugterm.'" already assigned to drug term',
+								],
+							false,
+							Response::HTTP_OK
+							);
+						} else {
+							$data =[
+									'jobid' 		=> $request->jobid, 
+									'orderid' 		=> $request->orderid,
+									'pui' 			=> $request->pui,
+									'user_id' 		=> \Auth::id(),
+									'type' 			=> 'minor',
+									'termcategory' 	=> 'drugterm',
+									'termtype' 		=> $request->txtdrugtermtype,		
+									'drugterm' 		=> $request->txtdrugterm,
+									'status' 		=> '1', 		
+									'modified_at' 	=> date('Y-m-d H:i:s'),
+								   ]; 
+								   
+							if($request->drugid == '0'){	   
+								$InsertedID = DB::table('index_drug')->insert($data);
+								$last_id 	= DB::getPDO()->lastInsertId();
+							
+							} else {
+								DB::table('index_drug')->where('id',$request->drugid)->update($data);
+								$last_id 	= $request->drugid;
+							}
+						}
+					break;
+				  case "3":
+						if($drugmajorcount < 6 ){
+							if (in_array($request->txtdrugterm, $arraycheck)) {
+								return ajaxResponse(
+									[
+										'count'      => $drugmajorcount,
+										'message' 	 => '"'.$request->txtdrugterm.'" already assigned to drug term',
+									],
+								false,
+								Response::HTTP_OK
+								);
+							} else {
+								$data =[
+										'jobid' 		=> $request->jobid, 
+										'orderid' 		=> $request->orderid,
+										'pui' 			=> $request->pui,
+										'user_id' 		=> \Auth::id(),
+										'type' 			=> 'major',
+										'termcategory' 	=> 'candidateterm',
+										'termtype' 		=> 'CAN',		
+										'drugterm' 		=> $request->txtdrugterm,
+										'status' 		=> '1', 		
+										'modified_at' 	=> date('Y-m-d H:i:s'),
+									   ]; 
+									   
+								if($request->drugid == '0'){	   
+									$InsertedID = DB::table('index_drug')->insert($data);
+									$last_id 	= DB::getPDO()->lastInsertId();
+								
+								} else {
+									DB::table('index_drug')->where('id',$request->drugid)->update($data);
+									$last_id 	= $request->drugid;
+								}
+						  }
+						} else {
+							return ajaxResponse(
+								[
+									'count'      => $drugmajorcount,
+									'message'    => 'Maximum 6 major drug terms allowed!!',
+								],
+							false,
+							Response::HTTP_OK
+							);
+						}
+					break;
+				  case "4":
+						if (in_array($request->txtdrugterm, $arraycheck)) {
+								return ajaxResponse(
+									[
+										'count'      => $drugmajorcount,
+										'message' 	 => '"'.$request->txtdrugterm.'" already assigned to drug term',
+									],
+								false,
+								Response::HTTP_OK
+								);
+							} else {
+								$data =[
+										'jobid' 		=> $request->jobid, 
+										'orderid' 		=> $request->orderid,
+										'pui' 			=> $request->pui,
+										'user_id' 		=> \Auth::id(),
+										'type' 			=> 'minor',
+										'termcategory' 	=> 'candidateterm',
+										'termtype' 		=> 'CAN',		
+										'drugterm' 		=> $request->txtdrugterm,
+										'status' 		=> '1', 		
+										'modified_at' 	=> date('Y-m-d H:i:s'),
+									   ]; 
+									   
+								if($request->drugid == '0'){	   
+									$InsertedID = DB::table('index_drug')->insert($data);
+									$last_id 	= DB::getPDO()->lastInsertId();
+								
+								} else {
+									DB::table('index_drug')->where('id',$request->drugid)->update($data);
+									$last_id 	= $request->drugid;
+								}
+						}
+					break;
+				}
+			}				
+			
+			
+			
+			
+				
 			//Last Inserted Data 			
 			$drugtermdata 		= DB::table('index_drug')->where('id', $last_id)->get()->toArray();
 			//Total count of data
-			$matchThese 			= ['user_id' => \Auth::id(), 'jobid' => $request->jobid, 'orderid' => $request->orderid];
+			$matchThese 			= ['user_id' => \Auth::id(), 'jobid' => $request->jobid, 'pui' => $request->pui, 'orderid' => $request->orderid];
 			$drugtermtypecount 	= DB::table('index_drug')->select('type', DB::raw('count(*) as total'))->where($matchThese)->groupBy('type')->pluck('total','type')->all();
 	
 			$drugdata = array();
@@ -1557,23 +1714,59 @@ class IndexingApiController extends Controller
 			   $drugdata[$termgroup->type][] = $termgroup;
 			}
 			$data['drugtermdata']   		= $drugtermdata;
-			$data['type']   				= $request->fcttermindexing;	
+			$data['type']   				= $request->drugtermindexing;	
 			$majorcount 					= @$drugtermtypecount['major'];	
 			$minorcount 					= @$drugtermtypecount['minor'];
 			$totaldrugcountterm				= @$drugtermtypecount['major'] + @$drugtermtypecount['minor'];
-			if ($this->request->has('json')) {
-				$htmldrugterm	= view('indexing::indexdrug.newDrugHtml', compact('data'))->render();
-				return response()->json(['status' =>'success', 'type' => $request->fcttermindexing,  'totaldrugcountterm' => $totaldrugcountterm, 'minorcount' => $minorcount,'majorcount' => $majorcount,'htmldrugterm' =>$htmldrugterm,  'message' => langapp('saved_successfully')], Response::HTTP_OK);
-			} 
 			
-			return ajaxResponse(
+			
+				$htmldrugterm	= view('indexing::indexdrug.newDrugHtml', compact('data'))->render();
+				if($request->drugid == '0'){	   
+					$recordstatus = 'insert';
+				} else {
+					$recordstatus = 'update';
+				}
+				
+				return ajaxResponse(
+					['status' =>'success', 'recordstatus' =>$recordstatus, 'type' => $request->drugtermindexing,  'totaldrugcountterm' => $totaldrugcountterm, 'minorcount' => $minorcount, 'majorcount' => $majorcount,'htmldrugterm' => $htmldrugterm, 'message' => langapp('saved_successfully')],
+				true,
+				Response::HTTP_OK
+				);
+				
+	}
+	
+	
+	 /**
+     * Delete a indexing
+     */
+    public function deletedrug($id = null,$jobid = null,$orderid = null)
+    {
+		$getdrug	= DB::table('index_drug')->where('id', $id)->get();
+		DB::table('index_drug')->where('id', $id)->delete();
+
+		//Total count of data
+		$matchThese 		= ['user_id' => \Auth::id(), 'pui' => $getdrug[0]->pui, 'jobid' => $getdrug[0]->jobid, 'orderid' => $getdrug[0]->orderid];
+		$drugtermtypecount 	= DB::table('index_drug')->select('type', DB::raw('count(*) as total'))->where($matchThese)->groupBy('type')->pluck('total','type')->all();
+	
+		$drugdata = array();
+		
+		$majorcount 					= @$drugtermtypecount['major'];	
+		$minorcount 					= @$drugtermtypecount['minor'];
+		$totaldrugcountterm				= @$drugtermtypecount['major'] + @$drugtermtypecount['minor'];
+		
+        return ajaxResponse(
             [
-                'message'  => langapp('saved_successfully')
+                'message'  			=> langapp('deleted_successfully'),
+				'majorcount' 		=> $majorcount,
+				'minorcount'  		=> $minorcount,
+				'totaldrug'  		=> $totaldrugcountterm,
+                'redirect' 			=> route('indexing.index'),
             ],
             true,
-            Response::HTTP_CREATED
+            Response::HTTP_OK
         );
-	}
+    }
+	
 	
 	 public function savedrugtradename(CreateMedicalRequest $request){
 	 
@@ -1671,7 +1864,7 @@ class IndexingApiController extends Controller
 			break;
 		  case "drugtherapy":
 		  		
-		  		$drugtherapy =	$request->drugtherapy;
+		  		$drugtherapy =	array();
 				if(@$request->txtdrugtherapy !=''){
 					array_push($drugtherapy,$request->txtdrugtherapy);
 				}
@@ -1768,7 +1961,7 @@ class IndexingApiController extends Controller
 				break;
 				
 		  case "advdrug":
-		  		$adversedrug =	$request->adversedrug;
+		  		$adversedrug =	array();
 				if(@$request->txtadversedrug !=''){
 					array_push($adversedrug,$request->txtadversedrug);
 				}
@@ -1843,7 +2036,7 @@ class IndexingApiController extends Controller
 				break;
 		
 		  case "druginteraction":
-		  		$druginteraction =	$request->druginteraction;
+		  		$druginteraction =	array();
 				if(@$request->txtdruginteraction !=''){
 					array_push($druginteraction,$request->txtdruginteraction);
 				}

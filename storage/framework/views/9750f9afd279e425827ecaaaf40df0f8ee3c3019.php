@@ -1,6 +1,7 @@
 <?php
+
 // Field 3 - Saved Data
-		$matchThese 			= ['user_id' => $user_id, 'jobid' => $jobid, 'orderid' => $orderid];
+		$matchThese 			= ['user_id' => $user_id, 'jobid' => $jobid, 'pui' => $pui, 'orderid' => $orderid];
 		$checktagdata 			= DB::table('index_medical_checktag')->where($matchThese)->get()->toArray();
 		$medicaltermdata 		= DB::table('index_medical_term')->where($matchThese)->get()->toArray();
 		$medicaltermtypecount 	= DB::table('index_medical_term')->select('type', DB::raw('count(*) as total'))->where($matchThese)->groupBy('type')->pluck('total','type')->all();

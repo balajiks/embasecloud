@@ -30,6 +30,10 @@ Route::group(
 		Route::get('indexing/getsectiondata/{id}', 'indexingApiController@getsectiondata')->name('indexing.api.getsectiondata');
 		Route::get('indexing/getmedicaldata/{id}', 'indexingApiController@getmedicaldata')->name('indexing.api.getmedicaldata');
 		
+		Route::get('indexing/getdrugdata/{id}', 'indexingApiController@getdrugdata')->name('indexing.api.getdrugdata');
+		
+		
+		
 		
 		Route::post('indexing/ajax/classification', 'indexingApiController@classification')->name('indexing.api.classification')->middleware('can:menu_indexing');
 		Route::post('indexing/ajax/terms', 'indexingApiController@terms')->name('indexing.api.terms')->middleware('can:menu_indexing');
@@ -49,6 +53,8 @@ Route::group(
 		
 		Route::delete('indexing/{id}/medicaltermindex', 'indexingApiController@deletemedical')->name('indexing.api.deletemedical')->middleware('can:indexing_delete');
 		Route::delete('indexing/{id}/medicalchecktagtermindex', 'indexingApiController@deletemedicalchecktag')->name('indexing.api.deletemedicalchecktag')->middleware('can:indexing_delete');
+		
+		Route::delete('indexing/{id}/drugtermindex', 'indexingApiController@deletedrug')->name('indexing.api.deletedrug')->middleware('can:indexing_delete');
 		
 		Route::delete('indexing/{id}/drugctnindex', 'indexingApiController@deletectn')->name('indexing.api.deletectn')->middleware('can:indexing_delete');
 		
