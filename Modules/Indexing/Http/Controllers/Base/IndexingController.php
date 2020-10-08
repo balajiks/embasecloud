@@ -451,7 +451,9 @@ abstract class indexingController extends Controller
 		
 		
 		
-		$dataary = json_encode($dataary);
+		//$dataary = json_encode($dataary);
+		
+	
 		
 		
 		$datametaary = array();
@@ -468,11 +470,22 @@ abstract class indexingController extends Controller
 		$datametaary['IsAbstractAvailable']			=	false;
 		$datametaary['IsPublicationAvailable']		=	false;
 		
-		$datametaary = json_encode($datametaary);
+		//$datametaary = json_encode($datametaary);
+		
+		$opsbankary = array();
+		$opsbankary['RequestID'] = date('ymdHis').uniqid(true);
+		$opsbankary['MetadataObj'] = $datametaary;
+		$opsbankary['IndexData'] = $dataary;
+		
+		
+		
+		$requestdata = json_encode($opsbankary);
+		
+		
 		
 		$curl = curl_init();
 		curl_setopt_array($curl, array(
-		  CURLOPT_URL => "http://localhost:5000/api/emtreegeneration/generate_opsbank2_xml?MetadataStr=".base64_encode($datametaary)."&IndexData_Str=".base64_encode($dataary),
+		  CURLOPT_URL => "http://localhost:5000/api/emtreegeneration/generate_opsbank2_xml3",
 		  CURLOPT_RETURNTRANSFER => true,
 		  CURLOPT_ENCODING => "",
 		  CURLOPT_MAXREDIRS => 10,
@@ -480,11 +493,9 @@ abstract class indexingController extends Controller
 		  CURLOPT_FOLLOWLOCATION => true,
 		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		  CURLOPT_CUSTOMREQUEST => "POST",
+		  CURLOPT_POSTFIELDS =>  $requestdata,
 		  CURLOPT_HTTPHEADER => array(
 							'Content-Type: application/json',
-							'Connection: Keep-Alive',
-							'Accept: application/json',
-							'Content-Length: 0',
 							),
 
 		 
@@ -492,6 +503,8 @@ abstract class indexingController extends Controller
 		$output = curl_exec($curl);
 		curl_close($curl);
 		
+		
+	
 		$output = json_decode($output,true);
 		
 		

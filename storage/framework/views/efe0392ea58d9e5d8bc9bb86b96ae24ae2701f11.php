@@ -18,11 +18,16 @@
                     <button type="submit" id="findtermbtn" class="btn btn-sm btn-<?php echo e(get_option('theme_color')); ?> m-xs pull-right" value="find-term"> <span class=""><?php echo e(svg_image('solid/envelope-open')); ?> Find Term</span> </button>
                   </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-6">
                   <div id="preloader"><i class="fas fa-spin fa-spinner"></i> Loading...</div>
                   <div id="jstree-box-tree"></div>
 				  
                 </div>
+				 <div class="col-lg-6">
+				 <div id="Synonymstxt"></div>
+				  <div id="Scopenotetxt"></div>
+				 </div>
+				 </div>
               </div>
             </div>
           </div>
@@ -109,6 +114,7 @@ $('#txtemtreeterm').keyup(function(){
 			searchterm: keyvalue
 		})
 		.then(function (response) {
+		
 			$('#suggesstion-box').fadeIn();  
 			$('#suggesstion-box').html(response.data); 
 			<!--toastr.success(response.data.message, '<?php echo trans('app.'.'success'); ?> ');-->
@@ -132,9 +138,12 @@ function selectedTerms(name,term){
 			selectterm: name
 		})
 		.then(function (response) {
+		
 
 		$('#jstree-box-tree').jstree("destroy").empty();
-		$('#jstree-box-tree').html(response.data.message); 
+		$('#jstree-box-tree').html(response.data.message);
+		$('#Synonymstxt').html(response.data.Synonyms); 
+		$('#Scopenotetxt').html(response.data.Scopenote); 
 		open = false;
 		toggle(open);
 	$('#jstree-box-tree').jstree({

@@ -1100,10 +1100,11 @@ class IndexingApiController extends Controller
 		{
 			return '';
 		}
+		
+		
 		$sMarkup = '<ul>';
 		foreach ($aData['Nodes'] as $sKey => $mValue)
 		{
-			
 			switch ($mValue['TermType']) {
 			  case "DRG":
 				$lbl	=	"label-danger";
@@ -1140,13 +1141,27 @@ class IndexingApiController extends Controller
 		}
 		$sMarkup.= '</ul>';
 		return $sMarkup;
+		
 	}
 	
 	public function callapiemtree(){
-		$term			=	rawurlencode($this->request->selectterm);
+		$term			=	$this->request->selectterm;
+		
+		$data = array();
+		$data['SearchTerm'] = $term;
+		$data['RequestID'] = date('ymdHis').uniqid(true);
+		
+		
+		$requestdata = json_encode($data);
+		
+		
+		
+		
+		
+		
 		$curl = curl_init();
 		curl_setopt_array($curl, array(
-		  CURLOPT_URL => "http://localhost:5000/api/emtreegeneration/generateemtree?SearchTerm=".$term,
+		  CURLOPT_URL => "http://localhost:5000/api/emtreegeneration/generateemtree3",
 		  CURLOPT_RETURNTRANSFER => true,
 		  CURLOPT_ENCODING => "",
 		  CURLOPT_MAXREDIRS => 10,
@@ -1154,24 +1169,57 @@ class IndexingApiController extends Controller
 		  CURLOPT_FOLLOWLOCATION => true,
 		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		  CURLOPT_CUSTOMREQUEST => "POST",
-		  CURLOPT_HTTPHEADER => array(
-									'Content-Type: application/json',
-									'Connection: Keep-Alive',
-									'Accept: application/json',
-									'Content-Length: 0',
-									),
+		  CURLOPT_POSTFIELDS =>  $requestdata,
+		 CURLOPT_HTTPHEADER => array(
+			"Content-Type: application/json"
+		  ),
 		));
 		$output = curl_exec($curl);
 		curl_close($curl);
 		
-		$jsondecoded['Nodes'] = json_decode($output,true);
+		
+		
+		$jsondecoded = json_decode($output,true);
+		
+		$jsondecoded['Nodes'] = $jsondecoded['EmtreeData']['EmtreeData'];   
 		
 		
 		
-		$output = $this->buildMarkupListTree($jsondecoded);
+		$Synonyms = $jsondecoded['EmtreeData']['Synonyms'];   
+		
+		if(!empty($Synonyms)) {
+		
+			$Synonymstext = '<div class="panel panel-default"><div class="panel-heading">Synonyms</div><div class="panel-body">';
+			foreach($Synonyms as $syndata){
+				$Synonymstext .= '<span class="btn btn-sm btn-default" style="margin-bottom:3px;">'.$syndata.'</span>&nbsp;&nbsp;';
+			
+			}
+			$Synonymstext .= '</div>';
+		} else {
+			$Synonymstext =  '';
+		}
+		
+		$ScopeNote_List = $jsondecoded['EmtreeData']['ScopeNote_List'];   
+		if(!empty($ScopeNote_List)) {
+		$ScopeNotetext = '<div class="list-group">';
+		$ScopeNotetext .= '<h3>ScopeNote : '.$ScopeNote_List[0]['ScopeNoteType'].'</h3>';
+		foreach($ScopeNote_List as $notedata){
+			$ScopeNotetext .= '<button type="button" class="list-group-item list-group-item-action">'.$notedata['ScopeNote_Text'].'</button>';
+		}
+		$ScopeNotetext .= '</div>';
+		} else {
+			$ScopeNotetext =  '';
+		}
+
+		
+		$outputval = $this->buildMarkupListTree($jsondecoded);
+		
+		
 		return ajaxResponse(
 				[
-					'message' => $output,
+					'message' => $outputval,
+					'Synonyms' => $Synonymstext,
+					'Scopenote' => $ScopeNotetext,
 				],
 			false,
 			Response::HTTP_OK
